@@ -73,3 +73,38 @@
 2025-09-28 13:44:36 | INFO | {'message': 'I just tried Python! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 13:44:36', 'category': 'tech', 'sentiment': 0.38, 'keyword_mentioned': 'Python', 'message_length': 34}
 2025-09-28 13:44:38 | WARNING | Producer interrupted by user.
 2025-09-28 13:44:38 | INFO | Producer shutting down.
+2025-09-28 13:55:19 | INFO | Logging to file: logs/project_log.log
+2025-09-28 13:55:19 | INFO | Log sanitization enabled, personal info removed
+2025-09-28 13:55:20 | INFO | Starting Producer to run continuously.
+2025-09-28 13:55:20 | INFO | Use Ctrl+C to stop.
+2025-09-28 13:55:20 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-28 13:55:20 | INFO | BUZZ_TOPIC: buzzline
+2025-09-28 13:55:20 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-28 13:55:20 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-09-28 13:55:20 | INFO | LIVE_DATA_PATH: PROJECT_ROOT/data/project_live.json
+2025-09-28 13:55:20 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-09-28 13:55:20 | INFO | SQLITE_PATH: PROJECT_ROOT/data/buzz.sqlite
+2025-09-28 13:55:20 | INFO | Deleted existing live data file.
+2025-09-28 13:55:20 | INFO | Kafka broker address: localhost:9092
+2025-09-28 13:55:20 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8g7_8xraQ_OwBKie1pujOg', 'controller_id': 1}
+2025-09-28 13:55:22 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-28 13:55:22 | INFO | {'message': 'I just tried travel! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 13:55:22', 'category': 'travel', 'sentiment': 0.17, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-28 13:55:23 | WARNING | Producer interrupted by user.
+2025-09-28 13:55:23 | INFO | Producer shutting down.
+2025-09-28 13:55:50 | INFO | Logging to file: logs/project_log.log
+2025-09-28 13:55:50 | INFO | Log sanitization enabled, personal info removed
+2025-09-28 13:55:50 | INFO | Starting Mortality Data Producer
+2025-09-28 13:55:50 | INFO | Streaming mortality data from data/USRegionalMortality.csv for three regions
+2025-09-28 13:55:50 | INFO | Use Ctrl+C to stop.
+2025-09-28 13:55:50 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-28 13:55:50 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-09-28 13:55:50 | INFO | LIVE_DATA_PATH: PROJECT_ROOT/data/project_live.json
+2025-09-28 13:55:50 | INFO | BASE_DATA_DIR: PROJECT_ROOT/data
+2025-09-28 13:55:50 | INFO | SQLITE_PATH: PROJECT_ROOT/data/buzz.sqlite
+2025-09-28 13:55:50 | INFO | SQLite database initialized at PROJECT_ROOT/data/buzz.sqlite
+2025-09-28 13:55:50 | INFO | Deleted existing live data file.
+2025-09-28 13:55:50 | INFO | HHS Region 01 Urban Male Heart disease: Rate 188.2, SE 1.0, Keyword: High, Message: Heart disease mortality in HHS Region 01 for Urban Males: 188.2 with SE 1.0.
+2025-09-28 13:55:55 | INFO | HHS Region 01 Rural Male Heart disease: Rate 199.1, SE 2.6, Keyword: High, Message: Heart disease mortality in HHS Region 01 for Rural Males: 199.1 with SE 2.6.
+2025-09-28 13:56:00 | INFO | HHS Region 01 Urban Female Heart disease: Rate 115.1, SE 0.6, Keyword: High, Message: Heart disease claims 115.1 per 100,000 Urban Females in HHS Region 01, SE 0.6.
+2025-09-28 13:56:03 | WARNING | Mortality Producer interrupted by user.
+2025-09-28 13:56:03 | INFO | Mortality Producer shutting down.

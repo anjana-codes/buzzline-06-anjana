@@ -1,0 +1,463 @@
+2025-09-23 20:27:46 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:27:46 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:27:58 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:27:58 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:28:52 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:28:52 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:28:52 | INFO | Starting Producer to run continuously.
+2025-09-23 20:28:52 | INFO | Use Ctrl+C to stop.
+2025-09-23 20:28:52 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-23 20:28:52 | INFO | BUZZ_TOPIC: buzzline
+2025-09-23 20:28:52 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-23 20:28:52 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:28:52 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json
+2025-09-23 20:28:52 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:28:52 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-23 20:28:52 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:28:53 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8g7_8xraQ_OwBKie1pujOg', 'controller_id': 1}
+2025-09-23 20:28:55 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-23 20:28:55 | INFO | {'message': 'I just loved a story! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-23 20:28:55', 'category': 'other', 'sentiment': 0.52, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-23 20:29:00 | INFO | {'message': 'I just loved recipe! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-23 20:29:00', 'category': 'food', 'sentiment': 0.17, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-23 20:29:05 | INFO | {'message': 'I just shared an app! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-23 20:29:05', 'category': 'other', 'sentiment': 0.53, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-23 20:29:10 | INFO | {'message': 'I just saw a meme! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-23 20:29:10', 'category': 'humor', 'sentiment': 0.08, 'keyword_mentioned': 'meme', 'message_length': 32}
+2025-09-23 20:29:15 | INFO | {'message': 'I just tried a meme! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-23 20:29:15', 'category': 'humor', 'sentiment': 0.33, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-23 20:29:15 | WARNING | Producer interrupted by user.
+2025-09-23 20:29:15 | INFO | Producer shutting down.
+2025-09-23 20:31:27 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:31:27 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:31:27 | INFO | Starting Producer to run continuously.
+2025-09-23 20:31:27 | INFO | Use Ctrl+C to stop.
+2025-09-23 20:31:27 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-23 20:31:27 | INFO | BUZZ_TOPIC: buzzline
+2025-09-23 20:31:27 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-23 20:31:27 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:31:27 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json
+2025-09-23 20:31:27 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:31:27 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-23 20:31:27 | INFO | Deleted existing live data file.
+2025-09-23 20:31:27 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:31:28 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8g7_8xraQ_OwBKie1pujOg', 'controller_id': 1}
+2025-09-23 20:31:30 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-23 20:31:30 | INFO | {'message': 'I just found a trick! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-23 20:31:30', 'category': 'other', 'sentiment': 0.7, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-23 20:31:35 | INFO | {'message': 'I just shared a trick! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-23 20:31:35', 'category': 'other', 'sentiment': 0.42, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-23 20:31:37 | WARNING | Producer interrupted by user.
+2025-09-23 20:31:37 | INFO | Producer shutting down.
+2025-09-23 20:31:55 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:31:55 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:39:18 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:39:18 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:39:18 | INFO | Starting Producer to run continuously.
+2025-09-23 20:39:18 | INFO | Use Ctrl+C to stop.
+2025-09-23 20:39:18 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-23 20:39:18 | INFO | BUZZ_TOPIC: buzzline
+2025-09-23 20:39:18 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-23 20:39:18 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:39:18 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json
+2025-09-23 20:39:18 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:39:18 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-23 20:39:18 | INFO | Deleted existing live data file.
+2025-09-23 20:39:18 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:39:19 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8g7_8xraQ_OwBKie1pujOg', 'controller_id': 1}
+2025-09-23 20:39:21 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-23 20:39:21 | INFO | {'message': 'I just loved an app! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-23 20:39:21', 'category': 'other', 'sentiment': 0.55, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-23 20:39:26 | INFO | {'message': 'I just shared recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-23 20:39:26', 'category': 'food', 'sentiment': 0.78, 'keyword_mentioned': 'recipe', 'message_length': 38}
+2025-09-23 20:39:31 | INFO | {'message': 'I just tried a meme! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-23 20:39:31', 'category': 'humor', 'sentiment': 0.54, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-23 20:39:36 | INFO | {'message': 'I just shared an app! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-23 20:39:36', 'category': 'other', 'sentiment': 0.36, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-23 20:39:38 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:39:38 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:39:38 | INFO | Starting Consumer to run continuously.
+2025-09-23 20:39:38 | INFO | Things can fail or get interrupted, so use a try block.
+2025-09-23 20:39:38 | INFO | Moved .env variables into a utils config module.
+2025-09-23 20:39:38 | INFO | STEP 1. Read environment variables using new config functions.
+2025-09-23 20:39:38 | INFO | BUZZ_TOPIC: buzzline
+2025-09-23 20:39:38 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-23 20:39:38 | INFO | BUZZ_CONSUMER_GROUP_ID: buzz_group
+2025-09-23 20:39:38 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-23 20:39:38 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:39:38 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-23 20:39:38 | INFO | SUCCESS: Read environment variables.
+2025-09-23 20:39:38 | INFO | STEP 2. Delete any prior database file for a fresh start.
+2025-09-23 20:39:38 | INFO | STEP 3. Initialize a new database with an empty table.
+2025-09-23 20:39:38 | INFO | Calling SQLite init_db() with {db_path=}.
+2025-09-23 20:39:38 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-23 20:39:38 | INFO | SUCCESS: Database initialized and table ready at C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite.
+2025-09-23 20:39:38 | INFO | STEP 4. Begin consuming and storing messages.
+2025-09-23 20:39:38 | INFO | Called consume_messages_from_kafka() with:
+2025-09-23 20:39:38 | INFO |    topic='buzzline'
+2025-09-23 20:39:38 | INFO |    kafka_url='127.0.0.1:9092'
+2025-09-23 20:39:38 | INFO |    group='buzz_group'
+2025-09-23 20:39:38 | INFO |    sql_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 20:39:38 | INFO |    interval_secs=5
+2025-09-23 20:39:38 | INFO | Step 1. Verify Kafka Services.
+2025-09-23 20:39:38 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:39:39 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8g7_8xraQ_OwBKie1pujOg', 'controller_id': 1}
+2025-09-23 20:39:39 | INFO | Step 2. Create a Kafka consumer.
+2025-09-23 20:39:39 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:39:39 | INFO | Creating Kafka consumer. Topic='buzzline' and group ID='buzz_group'.
+2025-09-23 20:39:39 | INFO | Kafka consumer created successfully.
+2025-09-23 20:39:39 | INFO | Step 3. Verify topic exists.
+2025-09-23 20:39:39 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:39:39 | INFO | is_topic_available: topic 'buzzline' found on localhost:9092.
+2025-09-23 20:39:39 | INFO | Kafka topic 'buzzline' is ready.
+2025-09-23 20:39:39 | INFO | Step 4. Process messages.
+2025-09-23 20:39:39 | ERROR | ERROR: Could not consume messages from Kafka: Invalid file descriptor: -1
+2025-09-23 20:39:39 | ERROR | Unexpected error: Invalid file descriptor: -1
+2025-09-23 20:39:39 | INFO | Consumer shutting down.
+2025-09-23 20:39:41 | INFO | {'message': 'I just tried a movie! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-23 20:39:41', 'category': 'entertainment', 'sentiment': 0.8, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-23 20:39:46 | INFO | {'message': 'I just found game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-23 20:39:46', 'category': 'gaming', 'sentiment': 0.24, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-23 20:39:48 | WARNING | Producer interrupted by user.
+2025-09-23 20:39:48 | INFO | Producer shutting down.
+2025-09-23 20:49:20 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:49:20 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:49:20 | INFO | Starting Producer to run continuously.
+2025-09-23 20:49:20 | INFO | Use Ctrl+C to stop.
+2025-09-23 20:49:20 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-23 20:49:20 | INFO | BUZZ_TOPIC: buzzline
+2025-09-23 20:49:20 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-23 20:49:20 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:49:20 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json
+2025-09-23 20:49:20 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:49:20 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-23 20:49:20 | INFO | Deleted existing live data file.
+2025-09-23 20:49:20 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:49:21 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8g7_8xraQ_OwBKie1pujOg', 'controller_id': 1}
+2025-09-23 20:49:23 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-23 20:49:23 | INFO | {'message': 'I just saw JavaScript! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-23 20:49:23', 'category': 'tech', 'sentiment': 0.44, 'keyword_mentioned': 'JavaScript', 'message_length': 36}
+2025-09-23 20:49:28 | INFO | {'message': 'I just saw a trick! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-23 20:49:28', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-23 20:49:29 | INFO | Logging to file: logs/project_log.log
+2025-09-23 20:49:29 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 20:49:29 | INFO | Starting Consumer to run continuously.
+2025-09-23 20:49:29 | INFO | Things can fail or get interrupted, so use a try block.
+2025-09-23 20:49:29 | INFO | Moved .env variables into a utils config module.
+2025-09-23 20:49:29 | INFO | STEP 1. Read environment variables using new config functions.
+2025-09-23 20:49:29 | INFO | BUZZ_TOPIC: buzzline
+2025-09-23 20:49:29 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-23 20:49:29 | INFO | BUZZ_CONSUMER_GROUP_ID: buzz_group
+2025-09-23 20:49:29 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-23 20:49:29 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 20:49:29 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-23 20:49:29 | INFO | SUCCESS: Read environment variables.
+2025-09-23 20:49:29 | INFO | STEP 2. Delete any prior database file for a fresh start.
+2025-09-23 20:49:29 | INFO | SUCCESS: Deleted database file.
+2025-09-23 20:49:29 | INFO | STEP 3. Initialize a new database with an empty table.
+2025-09-23 20:49:29 | INFO | Calling SQLite init_db() with {db_path=}.
+2025-09-23 20:49:29 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-23 20:49:29 | INFO | SUCCESS: Database initialized and table ready at C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite.
+2025-09-23 20:49:29 | INFO | STEP 4. Begin consuming and storing messages.
+2025-09-23 20:49:29 | INFO | Called consume_messages_from_kafka() with:
+2025-09-23 20:49:29 | INFO |    topic='buzzline'
+2025-09-23 20:49:29 | INFO |    kafka_url='127.0.0.1:9092'
+2025-09-23 20:49:29 | INFO |    group='buzz_group'
+2025-09-23 20:49:29 | INFO |    sql_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 20:49:29 | INFO |    interval_secs=5
+2025-09-23 20:49:29 | INFO | Step 1. Verify Kafka Services.
+2025-09-23 20:49:29 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:49:29 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8g7_8xraQ_OwBKie1pujOg', 'controller_id': 1}
+2025-09-23 20:49:29 | INFO | Step 2. Create a Kafka consumer.
+2025-09-23 20:49:29 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:49:29 | INFO | Creating Kafka consumer. Topic='buzzline' and group ID='buzz_group'.
+2025-09-23 20:49:29 | INFO | Kafka consumer created successfully.
+2025-09-23 20:49:29 | INFO | Step 3. Verify topic exists.
+2025-09-23 20:49:29 | INFO | Kafka broker address: localhost:9092
+2025-09-23 20:49:30 | INFO | is_topic_available: topic 'buzzline' found on localhost:9092.
+2025-09-23 20:49:30 | INFO | Kafka topic 'buzzline' is ready.
+2025-09-23 20:49:30 | INFO | Step 4. Process messages.
+2025-09-23 20:49:30 | ERROR | ERROR: Could not consume messages from Kafka: Invalid file descriptor: -1
+2025-09-23 20:49:30 | ERROR | Unexpected error: Invalid file descriptor: -1
+2025-09-23 20:49:30 | INFO | Consumer shutting down.
+2025-09-23 20:49:33 | INFO | {'message': 'I just shared a trick! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-23 20:49:33', 'category': 'other', 'sentiment': 0.75, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-23 20:49:35 | WARNING | Producer interrupted by user.
+2025-09-23 20:49:35 | INFO | Producer shutting down.
+2025-09-23 21:57:42 | INFO | Logging to file: logs/project_log.log
+2025-09-23 21:57:42 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 21:57:42 | INFO | Starting Producer to run continuously.
+2025-09-23 21:57:42 | INFO | Use Ctrl+C to stop.
+2025-09-23 21:57:42 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-23 21:57:42 | INFO | BUZZ_TOPIC: buzzline
+2025-09-23 21:57:42 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-23 21:57:42 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 21:57:42 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json
+2025-09-23 21:57:42 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 21:57:42 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-23 21:57:42 | INFO | Deleted existing live data file.
+2025-09-23 21:57:42 | INFO | Kafka broker address: localhost:9092
+2025-09-23 21:57:42 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 0, 'host': 'DESKTOP-J39AG0B.lan', 'port': 9092, 'rack': None}], 'cluster_id': 'ZG6FogNfS5mnNtqdqT9PZg', 'controller_id': 0}
+2025-09-23 21:57:43 | INFO | Kafka producer connected to 127.0.0.1:9092
+2025-09-23 21:57:43 | INFO | Kafka broker address: localhost:9092
+2025-09-23 21:57:43 | INFO | Topic 'buzzline' created successfully.
+2025-09-23 21:57:43 | INFO | Kafka topic 'buzzline' is ready.
+2025-09-23 21:57:43 | INFO | {'message': 'I just found a story! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:43', 'category': 'other', 'sentiment': 0.38, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-23 21:57:48 | INFO | {'message': 'I just shared a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:48', 'category': 'humor', 'sentiment': 0.27, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-23 21:57:53 | INFO | {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:53', 'category': 'tech', 'sentiment': 0.76, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-23 21:57:58 | INFO | {'message': 'I just shared travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-23 21:57:58', 'category': 'travel', 'sentiment': 0.2, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-23 21:58:00 | INFO | Logging to file: logs/project_log.log
+2025-09-23 21:58:00 | INFO | Log sanitization enabled, personal info removed
+2025-09-23 21:58:00 | INFO | Starting Consumer to run continuously.
+2025-09-23 21:58:00 | INFO | Things can fail or get interrupted, so use a try block.
+2025-09-23 21:58:00 | INFO | Moved .env variables into a utils config module.
+2025-09-23 21:58:00 | INFO | STEP 1. Read environment variables using new config functions.
+2025-09-23 21:58:00 | INFO | BUZZ_TOPIC: buzzline
+2025-09-23 21:58:00 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-23 21:58:00 | INFO | BUZZ_CONSUMER_GROUP_ID: buzz_group
+2025-09-23 21:58:00 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-23 21:58:00 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-23 21:58:00 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-23 21:58:00 | INFO | SUCCESS: Read environment variables.
+2025-09-23 21:58:00 | INFO | STEP 2. Delete any prior database file for a fresh start.
+2025-09-23 21:58:00 | INFO | SUCCESS: Deleted database file.
+2025-09-23 21:58:00 | INFO | STEP 3. Initialize a new database with an empty table.
+2025-09-23 21:58:00 | INFO | Calling SQLite init_db() with {db_path=}.
+2025-09-23 21:58:00 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-23 21:58:00 | INFO | SUCCESS: Database initialized and table ready at C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite.
+2025-09-23 21:58:00 | INFO | STEP 4. Begin consuming and storing messages.
+2025-09-23 21:58:00 | INFO | Called consume_messages_from_kafka() with:
+2025-09-23 21:58:00 | INFO |    topic='buzzline'
+2025-09-23 21:58:00 | INFO |    kafka_url='127.0.0.1:9092'
+2025-09-23 21:58:00 | INFO |    group='buzz_group'
+2025-09-23 21:58:00 | INFO |    sql_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 21:58:00 | INFO |    interval_secs=5
+2025-09-23 21:58:00 | INFO | Step 1. Verify Kafka Services.
+2025-09-23 21:58:00 | INFO | Kafka broker address: localhost:9092
+2025-09-23 21:58:01 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 0, 'host': 'DESKTOP-J39AG0B.lan', 'port': 9092, 'rack': None}], 'cluster_id': 'ZG6FogNfS5mnNtqdqT9PZg', 'controller_id': 0}
+2025-09-23 21:58:01 | INFO | Step 2. Create a Kafka consumer.
+2025-09-23 21:58:01 | INFO | Kafka broker address: localhost:9092
+2025-09-23 21:58:01 | INFO | Creating Kafka consumer. Topic='buzzline' and group ID='buzz_group'.
+2025-09-23 21:58:01 | INFO | Kafka consumer created successfully.
+2025-09-23 21:58:01 | INFO | Step 3. Verify topic exists.
+2025-09-23 21:58:01 | INFO | Kafka broker address: localhost:9092
+2025-09-23 21:58:01 | INFO | is_topic_available: topic 'buzzline' found on localhost:9092.
+2025-09-23 21:58:01 | INFO | Kafka topic 'buzzline' is ready.
+2025-09-23 21:58:01 | INFO | Step 4. Process messages.
+2025-09-23 21:58:02 | INFO | Called process_message() with:
+2025-09-23 21:58:02 | INFO |    message={'message': 'I just found a story! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:43', 'category': 'other', 'sentiment': 0.38, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-23 21:58:02 | INFO | Processed message: {'message': 'I just found a story! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:43', 'category': 'other', 'sentiment': 0.38, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-23 21:58:02 | INFO | Calling SQLite insert_message() with:
+2025-09-23 21:58:02 | INFO | message={'message': 'I just found a story! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:43', 'category': 'other', 'sentiment': 0.38, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-23 21:58:02 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 21:58:02 | INFO | Inserted one message into the database.
+2025-09-23 21:58:02 | INFO | Called process_message() with:
+2025-09-23 21:58:02 | INFO |    message={'message': 'I just shared a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:48', 'category': 'humor', 'sentiment': 0.27, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-23 21:58:02 | INFO | Processed message: {'message': 'I just shared a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:48', 'category': 'humor', 'sentiment': 0.27, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-23 21:58:02 | INFO | Calling SQLite insert_message() with:
+2025-09-23 21:58:02 | INFO | message={'message': 'I just shared a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:48', 'category': 'humor', 'sentiment': 0.27, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-23 21:58:02 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 21:58:03 | INFO | Inserted one message into the database.
+2025-09-23 21:58:03 | INFO | Called process_message() with:
+2025-09-23 21:58:03 | INFO |    message={'message': 'I just shared JavaScript! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:53', 'category': 'tech', 'sentiment': 0.76, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-23 21:58:03 | INFO | Processed message: {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:53', 'category': 'tech', 'sentiment': 0.76, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-23 21:58:03 | INFO | Calling SQLite insert_message() with:
+2025-09-23 21:58:03 | INFO | message={'message': 'I just shared JavaScript! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-23 21:57:53', 'category': 'tech', 'sentiment': 0.76, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-23 21:58:03 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 21:58:03 | INFO | Inserted one message into the database.
+2025-09-23 21:58:03 | INFO | Called process_message() with:
+2025-09-23 21:58:03 | INFO |    message={'message': 'I just shared travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-23 21:57:58', 'category': 'travel', 'sentiment': 0.2, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-23 21:58:03 | INFO | Processed message: {'message': 'I just shared travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-23 21:57:58', 'category': 'travel', 'sentiment': 0.2, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-23 21:58:03 | INFO | Calling SQLite insert_message() with:
+2025-09-23 21:58:03 | INFO | message={'message': 'I just shared travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-23 21:57:58', 'category': 'travel', 'sentiment': 0.2, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-23 21:58:03 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 21:58:03 | INFO | Inserted one message into the database.
+2025-09-23 21:58:03 | INFO | {'message': 'I just saw recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-23 21:58:03', 'category': 'food', 'sentiment': 0.48, 'keyword_mentioned': 'recipe', 'message_length': 32}
+2025-09-23 21:58:03 | INFO | Called process_message() with:
+2025-09-23 21:58:03 | INFO |    message={'message': 'I just saw recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-23 21:58:03', 'category': 'food', 'sentiment': 0.48, 'keyword_mentioned': 'recipe', 'message_length': 32}
+2025-09-23 21:58:03 | INFO | Processed message: {'message': 'I just saw recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-23 21:58:03', 'category': 'food', 'sentiment': 0.48, 'keyword_mentioned': 'recipe', 'message_length': 32}
+2025-09-23 21:58:03 | INFO | Calling SQLite insert_message() with:
+2025-09-23 21:58:03 | INFO | message={'message': 'I just saw recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-23 21:58:03', 'category': 'food', 'sentiment': 0.48, 'keyword_mentioned': 'recipe', 'message_length': 32}
+2025-09-23 21:58:03 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 21:58:03 | INFO | Inserted one message into the database.
+2025-09-23 21:58:08 | INFO | {'message': 'I just saw a movie! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-23 21:58:08', 'category': 'entertainment', 'sentiment': 0.18, 'keyword_mentioned': 'movie', 'message_length': 34}
+2025-09-23 21:58:08 | INFO | Called process_message() with:
+2025-09-23 21:58:08 | INFO |    message={'message': 'I just saw a movie! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-23 21:58:08', 'category': 'entertainment', 'sentiment': 0.18, 'keyword_mentioned': 'movie', 'message_length': 34}
+2025-09-23 21:58:08 | INFO | Processed message: {'message': 'I just saw a movie! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-23 21:58:08', 'category': 'entertainment', 'sentiment': 0.18, 'keyword_mentioned': 'movie', 'message_length': 34}
+2025-09-23 21:58:08 | INFO | Calling SQLite insert_message() with:
+2025-09-23 21:58:08 | INFO | message={'message': 'I just saw a movie! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-23 21:58:08', 'category': 'entertainment', 'sentiment': 0.18, 'keyword_mentioned': 'movie', 'message_length': 34}
+2025-09-23 21:58:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-23 21:58:08 | INFO | Inserted one message into the database.
+2025-09-23 21:58:10 | WARNING | Producer interrupted by user.
+2025-09-23 21:58:10 | INFO | Kafka producer closed.
+2025-09-23 21:58:10 | INFO | Producer shutting down.
+2025-09-23 21:58:13 | WARNING | Consumer interrupted by user.
+2025-09-23 21:58:13 | INFO | Consumer shutting down.
+2025-09-25 11:31:10 | INFO | Logging to file: logs/project_log.log
+2025-09-25 11:31:10 | INFO | Log sanitization enabled, personal info removed
+2025-09-25 11:31:27 | INFO | Logging to file: logs/project_log.log
+2025-09-25 11:31:27 | INFO | Log sanitization enabled, personal info removed
+2025-09-25 11:32:20 | INFO | Logging to file: logs/project_log.log
+2025-09-25 11:32:20 | INFO | Log sanitization enabled, personal info removed
+2025-09-25 11:32:20 | INFO | Starting Producer to run continuously.
+2025-09-25 11:32:20 | INFO | Use Ctrl+C to stop.
+2025-09-25 11:32:20 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-25 11:32:20 | INFO | BUZZ_TOPIC: buzzline
+2025-09-25 11:32:20 | INFO | KAFKA_BROKER_ADDRESS: 127.0.0.1:9092
+2025-09-25 11:32:20 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-25 11:32:20 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json
+2025-09-25 11:32:20 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-25 11:32:20 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-25 11:32:20 | INFO | Deleted existing live data file.
+2025-09-25 11:32:20 | INFO | Kafka broker address: localhost:9092
+2025-09-25 11:32:21 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8g7_8xraQ_OwBKie1pujOg', 'controller_id': 1}
+2025-09-25 11:32:23 | WARNING | WARNING: Kafka setup failed: NoBrokersAvailable
+2025-09-25 11:32:23 | INFO | {'message': 'I just found game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:23', 'category': 'gaming', 'sentiment': 0.27, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-25 11:32:28 | INFO | {'message': 'I just tried game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:28', 'category': 'gaming', 'sentiment': 0.86, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-25 11:32:33 | INFO | {'message': 'I just loved game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:33', 'category': 'gaming', 'sentiment': 0.81, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-25 11:32:38 | INFO | {'message': 'I just saw travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:38', 'category': 'travel', 'sentiment': 0.55, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-25 11:32:43 | INFO | {'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-25 11:32:43', 'category': 'entertainment', 'sentiment': 1.0, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-25 11:32:48 | INFO | {'message': 'I just found recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:48', 'category': 'food', 'sentiment': 0.44, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-25 11:32:53 | INFO | {'message': 'I just found an app! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:53', 'category': 'other', 'sentiment': 0.28, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-25 11:32:54 | INFO | Logging to file: logs/project_log.log
+2025-09-25 11:32:54 | INFO | Log sanitization enabled, personal info removed
+2025-09-25 11:32:54 | INFO | Starting Consumer to run continuously.
+2025-09-25 11:32:54 | INFO | Things can fail or get interrupted, so use a try block.
+2025-09-25 11:32:54 | INFO | Moved .env variables into a utils config module.
+2025-09-25 11:32:54 | INFO | STEP 1. Read environment variables using new config functions.
+2025-09-25 11:32:54 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-25 11:32:54 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-25 11:32:54 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json
+2025-09-25 11:32:54 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-25 11:32:54 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-25 11:32:54 | INFO | SUCCESS: Read environment variables.
+2025-09-25 11:32:54 | INFO | STEP 2. Delete any prior database file for a fresh start.
+2025-09-25 11:32:54 | INFO | SUCCESS: Deleted database file.
+2025-09-25 11:32:54 | INFO | STEP 3. Initialize a new database with an empty table.
+2025-09-25 11:32:54 | INFO | Calling SQLite init_db() with {db_path=}.
+2025-09-25 11:32:54 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-25 11:32:54 | INFO | SUCCESS: Database initialized and table ready at C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite.
+2025-09-25 11:32:54 | INFO | STEP 4. Begin consuming and storing messages.
+2025-09-25 11:32:54 | INFO | Called consume_messages_from_file() with:
+2025-09-25 11:32:54 | INFO |    live_data_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json')
+2025-09-25 11:32:54 | INFO |    sql_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:32:54 | INFO |    interval_secs=5
+2025-09-25 11:32:54 | INFO |    last_position=0
+2025-09-25 11:32:54 | INFO | 1. Initialize the database.
+2025-09-25 11:32:54 | INFO | Calling SQLite init_db() with {db_path=}.
+2025-09-25 11:32:54 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-25 11:32:54 | INFO | SUCCESS: Database initialized and table ready at C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite.
+2025-09-25 11:32:54 | INFO | 2. Set the last position to 0 to start at the beginning of the file.
+2025-09-25 11:32:54 | INFO | 3. Read from live data file at position 0.
+2025-09-25 11:32:54 | INFO | Processed message: {'message': 'I just found game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:23', 'category': 'gaming', 'sentiment': 0.27, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-25 11:32:54 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:32:54 | INFO | message={'message': 'I just found game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:23', 'category': 'gaming', 'sentiment': 0.27, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-25 11:32:54 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:32:54 | INFO | Inserted one message into the database.
+2025-09-25 11:32:54 | INFO | Processed message: {'message': 'I just tried game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:28', 'category': 'gaming', 'sentiment': 0.86, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-25 11:32:54 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:32:54 | INFO | message={'message': 'I just tried game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:28', 'category': 'gaming', 'sentiment': 0.86, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-25 11:32:54 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:32:54 | INFO | Inserted one message into the database.
+2025-09-25 11:32:54 | INFO | Processed message: {'message': 'I just loved game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:33', 'category': 'gaming', 'sentiment': 0.81, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-25 11:32:54 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:32:54 | INFO | message={'message': 'I just loved game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:33', 'category': 'gaming', 'sentiment': 0.81, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-25 11:32:54 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:32:54 | INFO | Inserted one message into the database.
+2025-09-25 11:32:54 | INFO | Processed message: {'message': 'I just saw travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:38', 'category': 'travel', 'sentiment': 0.55, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-25 11:32:54 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:32:54 | INFO | message={'message': 'I just saw travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:38', 'category': 'travel', 'sentiment': 0.55, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-25 11:32:54 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:32:54 | INFO | Inserted one message into the database.
+2025-09-25 11:32:54 | INFO | Processed message: {'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-25 11:32:43', 'category': 'entertainment', 'sentiment': 1.0, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-25 11:32:54 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:32:54 | INFO | message={'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-25 11:32:43', 'category': 'entertainment', 'sentiment': 1.0, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-25 11:32:54 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:32:54 | INFO | Inserted one message into the database.
+2025-09-25 11:32:54 | INFO | Processed message: {'message': 'I just found recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:48', 'category': 'food', 'sentiment': 0.44, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-25 11:32:54 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:32:54 | INFO | message={'message': 'I just found recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:48', 'category': 'food', 'sentiment': 0.44, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-25 11:32:54 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:32:54 | INFO | Inserted one message into the database.
+2025-09-25 11:32:54 | INFO | Processed message: {'message': 'I just found an app! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:53', 'category': 'other', 'sentiment': 0.28, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-25 11:32:54 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:32:54 | INFO | message={'message': 'I just found an app! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:53', 'category': 'other', 'sentiment': 0.28, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-25 11:32:54 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:32:54 | INFO | Inserted one message into the database.
+2025-09-25 11:32:54 | INFO | TRY/FINALLY: Consumer shutting down.
+2025-09-25 11:32:58 | INFO | {'message': 'I just shared a meme! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-25 11:32:58', 'category': 'humor', 'sentiment': 0.83, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-25 11:33:03 | INFO | {'message': 'I just shared game! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-25 11:33:03', 'category': 'gaming', 'sentiment': 0.97, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-25 11:33:08 | INFO | {'message': 'I just tried a trick! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:33:08', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-25 11:33:08 | INFO | Logging to file: logs/project_log.log
+2025-09-25 11:33:08 | INFO | Log sanitization enabled, personal info removed
+2025-09-25 11:33:08 | INFO | Starting Consumer to run continuously.
+2025-09-25 11:33:08 | INFO | Things can fail or get interrupted, so use a try block.
+2025-09-25 11:33:08 | INFO | Moved .env variables into a utils config module.
+2025-09-25 11:33:08 | INFO | STEP 1. Read environment variables using new config functions.
+2025-09-25 11:33:08 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-25 11:33:08 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-25 11:33:08 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json
+2025-09-25 11:33:08 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-anjana/data
+2025-09-25 11:33:08 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite
+2025-09-25 11:33:08 | INFO | SUCCESS: Read environment variables.
+2025-09-25 11:33:08 | INFO | STEP 2. Delete any prior database file for a fresh start.
+2025-09-25 11:33:08 | INFO | SUCCESS: Deleted database file.
+2025-09-25 11:33:08 | INFO | STEP 3. Initialize a new database with an empty table.
+2025-09-25 11:33:08 | INFO | Calling SQLite init_db() with {db_path=}.
+2025-09-25 11:33:08 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-25 11:33:08 | INFO | SUCCESS: Database initialized and table ready at C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite.
+2025-09-25 11:33:08 | INFO | STEP 4. Begin consuming and storing messages.
+2025-09-25 11:33:08 | INFO | Called consume_messages_from_file() with:
+2025-09-25 11:33:08 | INFO |    live_data_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/project_live.json')
+2025-09-25 11:33:08 | INFO |    sql_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO |    interval_secs=5
+2025-09-25 11:33:08 | INFO |    last_position=0
+2025-09-25 11:33:08 | INFO | 1. Initialize the database.
+2025-09-25 11:33:08 | INFO | Calling SQLite init_db() with {db_path=}.
+2025-09-25 11:33:08 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-25 11:33:08 | INFO | SUCCESS: Database initialized and table ready at C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite.
+2025-09-25 11:33:08 | INFO | 2. Set the last position to 0 to start at the beginning of the file.
+2025-09-25 11:33:08 | INFO | 3. Read from live data file at position 0.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just found game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:23', 'category': 'gaming', 'sentiment': 0.27, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just found game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:23', 'category': 'gaming', 'sentiment': 0.27, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just tried game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:28', 'category': 'gaming', 'sentiment': 0.86, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just tried game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:28', 'category': 'gaming', 'sentiment': 0.86, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just loved game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:33', 'category': 'gaming', 'sentiment': 0.81, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just loved game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:33', 'category': 'gaming', 'sentiment': 0.81, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just saw travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:38', 'category': 'travel', 'sentiment': 0.55, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just saw travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:38', 'category': 'travel', 'sentiment': 0.55, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-25 11:32:43', 'category': 'entertainment', 'sentiment': 1.0, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just found a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-25 11:32:43', 'category': 'entertainment', 'sentiment': 1.0, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just found recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:48', 'category': 'food', 'sentiment': 0.44, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just found recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-25 11:32:48', 'category': 'food', 'sentiment': 0.44, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just found an app! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:53', 'category': 'other', 'sentiment': 0.28, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just found an app! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:32:53', 'category': 'other', 'sentiment': 0.28, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just shared a meme! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-25 11:32:58', 'category': 'humor', 'sentiment': 0.83, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just shared a meme! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-25 11:32:58', 'category': 'humor', 'sentiment': 0.83, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just shared game! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-25 11:33:03', 'category': 'gaming', 'sentiment': 0.97, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just shared game! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-25 11:33:03', 'category': 'gaming', 'sentiment': 0.97, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | Processed message: {'message': 'I just tried a trick! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:33:08', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-25 11:33:08 | INFO | Calling SQLite insert_message() with:
+2025-09-25 11:33:08 | INFO | message={'message': 'I just tried a trick! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-25 11:33:08', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-25 11:33:08 | INFO | db_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-anjana/data/buzz.sqlite')
+2025-09-25 11:33:08 | INFO | Inserted one message into the database.
+2025-09-25 11:33:08 | INFO | TRY/FINALLY: Consumer shutting down.
+2025-09-25 11:33:12 | WARNING | Producer interrupted by user.
+2025-09-25 11:33:12 | INFO | Producer shutting down.
+2025-09-25 11:57:15 | INFO | Logging to file: logs/project_log.log
+2025-09-25 11:57:15 | INFO | Log sanitization enabled, personal info removed
+2025-09-25 11:57:15 | INFO | Starting Producer to run continuously.
+2025-09-25 11:57:15 | INFO | Use Ctrl+C to stop.
+2025-09-25 11:57:15 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-25 11:57:15 | INFO | BUZZ_TOPIC: buzzline

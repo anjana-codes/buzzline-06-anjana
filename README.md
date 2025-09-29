@@ -21,7 +21,8 @@ Streams mortality data by:
 
 Each JSON message follows this structure:
 
-```{
+```
+{
     "message": "In HHS Region 01, Urban Male population reported Heart disease mortality at 188.2 (SE 1.0).",
     "author": "HHS_Region_01",
     "timestamp": "2025-09-27 23:44:00",

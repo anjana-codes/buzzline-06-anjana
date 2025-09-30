@@ -1,4 +1,6 @@
 # buzzline-06-case (Mortality Data Streaming Pipeline)
+### Name: Anjana Dhakal 09/29/2025
+
 ## Overview
 This custom streaming pipeline processes real-time mortality data to provide insights into mortality rates, especially heart disease, across selected U.S. regions. The system simulates live data ingestion, processes health metrics, and visualizes trends to support public health monitoring and decision-making.
 
@@ -38,9 +40,9 @@ Each JSON message follows this structure:
 
 ### Consumer (consumer_mortality_anjana.py)
 
-Processes each streamed message to:
-- Extract metrics such as rate, cause, region, and timestamp.
-- Track mortality trends by cause, region, and gender using dictionaries and deques.
+- Custom consumer reads JSONL messages from data/project_live.json.
+- Extracts key fields, and tracks the average mortality rate by cause and gender using dictionaries and deques.
+- For the high-cause Heart Disease, it aggregates statistics by gender and region.
 - Detect high mortality events (rate ≥ 100) and count them.
 - Store processed data in SQLite (data/mortality_analytics.sqlite).
 - Update a real-time visualization dashboard.

@@ -7,7 +7,7 @@ This custom streaming pipeline processes real-time mortality data to provide ins
 
 - Real-time Data Streaming: Reads mortality data from a CSV file and streams it in JSONL format.
 - Region-specific Insights: Filters and analyzes data for all HHS regions.
-- Trend Tracking: Monitors mortality rates over time.
+- Trend Tracking: Highest mortality cause found in chart monitors mortality rates over time.
 - Dynamic Visualization: Displays live charts with Matplotlib animation.
 - Historical Data Storage: Saves processed messages in SQLite for later analysis.
 
@@ -138,3 +138,6 @@ The consumer opens a Matplotlib window displaying live dashboards that update co
 ### Data Storage
 
 Database: SQLite (data/mortality_analytics.sqlite)
+
+### Live chart Image 
+(image/live_dashboard.jpg)

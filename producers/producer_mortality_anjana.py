@@ -2,8 +2,8 @@
 producer_mortality_anjana.py
 
 Mortality data streaming producer.
-Reads mortality data from data/USRegionalMortality.csv, filters for three regions (HHS Region 01, HHS Region 02, HHS Region 03),
-and streams JSONL messages to data/project_live.json. Also stores messages in SQLite database (data/mortality.sqlite).
+Reads mortality data from data/USRegionalMortality.csv (all regions included),
+and streams JSONL messages to data/project_live.json. Also stores messages in SQLite database (data/mortality_analytics.sqlite).
 
 Example JSON message:
 {

@@ -140,4 +140,5 @@ The consumer opens a Matplotlib window displaying live dashboards that update co
 Database: SQLite (data/mortality_analytics.sqlite)
 
 ### Live chart Image 
+![Live Mortality Dashboard](image/Figure_2.png "Mortality Dashboard")
 [![alt text](image/live.dashboard.jpg)](https://github.com/anjana-codes/buzzline-06-anjana/blob/main/image/live_dashboard.jpg)

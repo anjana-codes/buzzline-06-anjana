@@ -62,7 +62,7 @@ The consumer displays a live dashboard with two charts:
 
 2. Heart Disease Rate Trends by Region
 
--Line chart showing mortality rate trends for heart disease across HHS regions.
+- Line chart showing mortality rate trends for heart disease across HHS regions.
 - Different colors for each region.
    {X-axis: Time (Recent Streamed Intervals)}
     {(Y-axis: Mortality Rate (per 100,000 population)}

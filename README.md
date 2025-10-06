@@ -49,7 +49,7 @@ Each JSON message follows this structure:
 
 ### Dynamic Visualization
 
-The consumer displays a live dashboard with three charts:
+The consumer displays a live dashboard with two charts:
 
 1. Average Mortality Rate by Cause (Split by Gender)
 
@@ -57,12 +57,7 @@ The consumer displays a live dashboard with three charts:
 - Splits each cause’s rate by gender (Male vs. Female).
 - Helps identify gender differences across causes at a glance.
 
-2. Average Heart Disease Mortality Rates by Gender
-
-- Bar chart showing gender differences specifically for heart disease mortality rates.
-- X-axis: Gender; Y-axis: Average mortality rate.
-
-3. Heart Disease Rate Trends by Region
+2. Heart Disease Rate Trends by Region
 
 -Line chart showing mortality rate trends for heart disease across HHS regions.
 - X-axis: Time (recent readings); Y-axis: Mortality rate.
@@ -78,6 +73,7 @@ Open your project in VS Code and use the commands for your operating system to:
 2. Activate the virtual environment.
 3. Upgrade pip and key tools. 
 4. Install from requirements.txt.
+5. Intsall matplotlib
 
 Open a new PowerShell terminal in VS Code (Terminal / New Terminal / PowerShell).
 **Python 3.11** is required for Apache Kafka. 
@@ -87,6 +83,7 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 py -m pip install --upgrade pip wheel setuptools
 py -m pip install --upgrade -r requirements.txt
+pip install matplotlib
 ```
 
 

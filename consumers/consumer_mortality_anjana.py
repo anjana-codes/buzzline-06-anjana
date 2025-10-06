@@ -147,7 +147,7 @@ def animate_dashboard(frame, fig, axes):
 
     # Chart 0: Mortality by Cause and Gender
     ax0.set_title('Average Mortality Rate by Cause and Gender', fontweight='bold')
-    ax0.set_ylabel('Average Rate')
+    ax0.set_ylabel('Average Mortality Rate')
     ax0.set_xlabel('Cause')
 
     causes = list(cause_gender_stats.keys())

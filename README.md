@@ -2,7 +2,7 @@
 ### Name: Anjana Dhakal 09/29/2025
 
 ## Overview
-This custom streaming pipeline processes real-time mortality data to provide insights into mortality rates, especially heart disease, across selected U.S. regions. The system simulates live data ingestion, processes health metrics, and visualizes trends to support public health monitoring and decision-making.
+This custom streaming pipeline processes real-time mortality data to analyze and visualize mortality rates across U.S. regions, with a special focus on Heart Disease. It simulates live data ingestion, processes health metrics, detects high-mortality events, and displays a continuously updating Matplotlib dashboard. The project combines data streaming, SQLite storage, and interactive analytics for public-health monitoring.
 
 
 ## Key Features
@@ -39,6 +39,7 @@ Each JSON message follows this structure:
 ```
 
 ### Consumer (consumer_mortality_anjana.py)
+The consumer performs real-time analytics and visualization:
 
 - Custom consumer reads JSONL messages from data/project_live.json.
 - Extracts key fields, and tracks the average mortality rate by cause and gender using dictionaries and deques.
@@ -51,18 +52,21 @@ Each JSON message follows this structure:
 
 The consumer displays a live dashboard with two charts:
 
-1. Average Mortality Rate by Cause (Split by Gender)
+1. Average Mortality Rate by Cause and Gender
 
 - Bar chart showing average mortality rates for each cause.
 - Splits each cause’s rate by gender (Male vs. Female).
 - Helps identify gender differences across causes at a glance.
+  { X-axis: Cause of Death (e.g., Heart Disease, Cancer, Stroke, etc.}
+  { Y-axis: Average Mortality Rate (per 100,000 population)}
 
 2. Heart Disease Rate Trends by Region
 
 -Line chart showing mortality rate trends for heart disease across HHS regions.
-- X-axis: Time (recent readings); Y-axis: Mortality rate.
 - Different colors for each region.
-
+   {X-axis: Time (Recent Streamed Intervals)}
+    {(Y-axis: Mortality Rate (per 100,000 population)}
+         
 
 ## Running the Pipeline
  1. Manage Local Project Virtual Environment

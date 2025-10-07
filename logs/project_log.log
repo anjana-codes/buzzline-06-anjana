@@ -1,34 +1,126 @@
-2025-10-07 10:57:36 | INFO | HHS Region 02 Urban Female Nephritis: Rate 8.6, SE 0.1
-2025-10-07 10:57:37 | INFO | HHS Region 02 Rural Female Nephritis: Rate 11.6, SE 0.6
-2025-10-07 10:57:38 | INFO | HHS Region 03 Urban Male Nephritis: Rate 18.8, SE 0.2
-2025-10-07 10:57:39 | INFO | HHS Region 03 Rural Male Nephritis: Rate 22.4, SE 0.6
-2025-10-07 10:57:40 | INFO | HHS Region 03 Urban Female Nephritis: Rate 13.0, SE 0.2
-2025-10-07 10:57:41 | INFO | HHS Region 03 Rural Female Nephritis: Rate 17.0, SE 0.5
-2025-10-07 10:57:42 | INFO | HHS Region 04 Urban Male Nephritis: Rate 17.2, SE 0.2
-2025-10-07 10:57:43 | INFO | HHS Region 04 Rural Male Nephritis: Rate 22.6, SE 0.4
-2025-10-07 10:57:44 | INFO | HHS Region 04 Urban Female Nephritis: Rate 11.7, SE 0.1
-2025-10-07 10:57:45 | INFO | HHS Region 04 Rural Female Nephritis: Rate 17.3, SE 0.3
-2025-10-07 10:57:46 | INFO | HHS Region 05 Urban Male Nephritis: Rate 18.5, SE 0.2
-2025-10-07 10:57:48 | INFO | HHS Region 05 Rural Male Nephritis: Rate 17.9, SE 0.3
-2025-10-07 10:57:49 | INFO | HHS Region 05 Urban Female Nephritis: Rate 12.9, SE 0.1
-2025-10-07 10:57:50 | INFO | HHS Region 05 Rural Female Nephritis: Rate 12.8, SE 0.2
-2025-10-07 10:57:51 | INFO | HHS Region 06 Urban Male Nephritis: Rate 19.4, SE 0.2
-2025-10-07 10:57:52 | INFO | HHS Region 06 Rural Male Nephritis: Rate 21.5, SE 0.4
-2025-10-07 10:57:53 | INFO | HHS Region 06 Urban Female Nephritis: Rate 14.3, SE 0.2
-2025-10-07 10:57:54 | INFO | HHS Region 06 Rural Female Nephritis: Rate 16.7, SE 0.3
-2025-10-07 10:57:55 | INFO | HHS Region 07 Urban Male Nephritis: Rate 18.1, SE 0.4
-2025-10-07 10:57:56 | INFO | HHS Region 07 Rural Male Nephritis: Rate 16.5, SE 0.5
-2025-10-07 10:57:57 | INFO | HHS Region 07 Urban Female Nephritis: Rate 12.3, SE 0.3
-2025-10-07 10:57:58 | INFO | HHS Region 07 Rural Female Nephritis: Rate 12.5, SE 0.3
-2025-10-07 10:57:59 | INFO | HHS Region 08 Urban Male Nephritis: Rate 12.9, SE 0.4
-2025-10-07 10:58:00 | INFO | HHS Region 08 Rural Male Nephritis: Rate 10.8, SE 0.5
-2025-10-07 10:58:01 | INFO | HHS Region 08 Urban Female Nephritis: Rate 8.3, SE 0.3
-2025-10-07 10:58:02 | INFO | HHS Region 08 Rural Female Nephritis: Rate 8.5, SE 0.4
-2025-10-07 10:58:03 | INFO | HHS Region 09 Urban Male Nephritis: Rate 9.0, SE 0.1
-2025-10-07 10:58:04 | INFO | HHS Region 09 Rural Male Nephritis: Rate 12.6, SE 0.7
-2025-10-07 10:58:05 | INFO | HHS Region 09 Urban Female Nephritis: Rate 6.1, SE 0.1
-2025-10-07 10:58:06 | INFO | HHS Region 09 Rural Female Nephritis: Rate 8.4, SE 0.5
-2025-10-07 10:58:07 | INFO | HHS Region 10 Urban Male Nephritis: Rate 8.6, SE 0.3
-2025-10-07 10:58:08 | INFO | HHS Region 10 Rural Male Nephritis: Rate 8.6, SE 0.5
-2025-10-07 10:58:08 | WARNING | Mortality Producer interrupted by user.
-2025-10-07 10:58:08 | INFO | Mortality Producer shutting down.
+2025-10-07 11:19:30 | INFO | HHS Region 10 Urban Female Lower respiratory: Rate 38.4, SE 0.5
+2025-10-07 11:19:32 | INFO | HHS Region 10 Rural Female Lower respiratory: Rate 45.3, SE 1.0
+2025-10-07 11:19:33 | INFO | HHS Region 01 Urban Male Unintentional injuries: Rate 47.4, SE 0.5
+2025-10-07 11:19:34 | INFO | HHS Region 01 Rural Male Unintentional injuries: Rate 60.5, SE 1.5
+2025-10-07 11:19:35 | INFO | HHS Region 01 Urban Female Unintentional injuries: Rate 22.5, SE 0.3
+2025-10-07 11:19:36 | INFO | HHS Region 01 Rural Female Unintentional injuries: Rate 28.8, SE 1.0
+2025-10-07 11:19:37 | INFO | HHS Region 02 Urban Male Unintentional injuries: Rate 39.7, SE 0.3
+2025-10-07 11:19:38 | INFO | HHS Region 02 Rural Male Unintentional injuries: Rate 49.6, SE 1.5
+2025-10-07 11:19:39 | INFO | HHS Region 02 Urban Female Unintentional injuries: Rate 17.0, SE 0.2
+2025-10-07 11:19:40 | INFO | HHS Region 02 Rural Female Unintentional injuries: Rate 23.4, SE 1.0
+2025-10-07 11:19:41 | INFO | HHS Region 03 Urban Male Unintentional injuries: Rate 51.8, SE 0.4
+2025-10-07 11:19:42 | INFO | HHS Region 03 Rural Male Unintentional injuries: Rate 77.6, SE 1.2
+2025-10-07 11:19:43 | INFO | HHS Region 03 Urban Female Unintentional injuries: Rate 24.3, SE 0.2
+2025-10-07 11:19:44 | INFO | HHS Region 03 Rural Female Unintentional injuries: Rate 39.8, SE 0.9
+2025-10-07 11:19:45 | INFO | HHS Region 04 Urban Male Unintentional injuries: Rate 56.2, SE 0.3
+2025-10-07 11:19:46 | INFO | HHS Region 04 Rural Male Unintentional injuries: Rate 79.1, SE 0.7
+2025-10-07 11:19:47 | INFO | HHS Region 04 Urban Female Unintentional injuries: Rate 28.6, SE 0.2
+2025-10-07 11:19:48 | INFO | HHS Region 04 Rural Female Unintentional injuries: Rate 41.3, SE 0.5
+2025-10-07 11:19:49 | INFO | HHS Region 05 Urban Male Unintentional injuries: Rate 50.9, SE 0.3
+2025-10-07 11:19:50 | INFO | HHS Region 05 Rural Male Unintentional injuries: Rate 62.3, SE 0.7
+2025-10-07 11:19:51 | INFO | HHS Region 05 Urban Female Unintentional injuries: Rate 25.9, SE 0.2
+2025-10-07 11:19:52 | INFO | HHS Region 05 Rural Female Unintentional injuries: Rate 32.3, SE 0.4
+2025-10-07 11:19:53 | INFO | HHS Region 06 Urban Male Unintentional injuries: Rate 54.6, SE 0.4
+2025-10-07 11:19:54 | INFO | HHS Region 06 Rural Male Unintentional injuries: Rate 77.2, SE 0.9
+2025-10-07 11:19:55 | INFO | HHS Region 06 Urban Female Unintentional injuries: Rate 27.0, SE 0.2
+2025-10-07 11:19:56 | INFO | HHS Region 06 Rural Female Unintentional injuries: Rate 39.9, SE 0.6
+2025-10-07 11:19:57 | INFO | HHS Region 07 Urban Male Unintentional injuries: Rate 53.4, SE 0.6
+2025-10-07 11:19:58 | INFO | HHS Region 07 Rural Male Unintentional injuries: Rate 68.1, SE 1.0
+2025-10-07 11:19:59 | INFO | HHS Region 07 Urban Female Unintentional injuries: Rate 28.7, SE 0.4
+2025-10-07 11:20:00 | INFO | HHS Region 07 Rural Female Unintentional injuries: Rate 35.4, SE 0.7
+2025-10-07 11:20:01 | INFO | HHS Region 08 Urban Male Unintentional injuries: Rate 55.3, SE 0.7
+2025-10-07 11:20:02 | INFO | HHS Region 08 Rural Male Unintentional injuries: Rate 71.0, SE 1.3
+2025-10-07 11:20:03 | INFO | HHS Region 08 Urban Female Unintentional injuries: Rate 32.7, SE 0.5
+2025-10-07 11:20:04 | INFO | HHS Region 08 Rural Female Unintentional injuries: Rate 39.2, SE 0.9
+2025-10-07 11:20:05 | INFO | HHS Region 09 Urban Male Unintentional injuries: Rate 41.8, SE 0.2
+2025-10-07 11:20:06 | INFO | HHS Region 09 Rural Male Unintentional injuries: Rate 79.1, SE 1.8
+2025-10-07 11:20:07 | INFO | HHS Region 09 Urban Female Unintentional injuries: Rate 20.5, SE 0.2
+2025-10-07 11:20:08 | INFO | HHS Region 09 Rural Female Unintentional injuries: Rate 40.9, SE 1.3
+2025-10-07 11:20:09 | INFO | HHS Region 10 Urban Male Unintentional injuries: Rate 49.8, SE 0.6
+2025-10-07 11:20:10 | INFO | HHS Region 10 Rural Male Unintentional injuries: Rate 66.2, SE 1.5
+2025-10-07 11:20:11 | INFO | HHS Region 10 Urban Female Unintentional injuries: Rate 28.4, SE 0.4
+2025-10-07 11:20:12 | INFO | HHS Region 10 Rural Female Unintentional injuries: Rate 37.2, SE 1.1
+2025-10-07 11:20:13 | INFO | HHS Region 01 Urban Male Cerebrovascular diseases: Rate 28.4, SE 0.4
+2025-10-07 11:20:14 | INFO | HHS Region 01 Rural Male Cerebrovascular diseases: Rate 31.2, SE 1.0
+2025-10-07 11:20:15 | INFO | HHS Region 01 Urban Female Cerebrovascular diseases: Rate 28.5, SE 0.3
+2025-10-07 11:20:16 | INFO | HHS Region 01 Rural Female Cerebrovascular diseases: Rate 33.6, SE 0.9
+2025-10-07 11:20:17 | INFO | HHS Region 02 Urban Male Cerebrovascular diseases: Rate 29.2, SE 0.3
+2025-10-07 11:20:18 | INFO | HHS Region 02 Rural Male Cerebrovascular diseases: Rate 32.9, SE 1.2
+2025-10-07 11:20:19 | INFO | HHS Region 02 Urban Female Cerebrovascular diseases: Rate 27.2, SE 0.2
+2025-10-07 11:20:20 | INFO | HHS Region 02 Rural Female Cerebrovascular diseases: Rate 32.2, SE 1.0
+2025-10-07 11:20:21 | INFO | HHS Region 03 Urban Male Cerebrovascular diseases: Rate 38.2, SE 0.3
+2025-10-07 11:20:22 | INFO | HHS Region 03 Rural Male Cerebrovascular diseases: Rate 42.5, SE 0.8
+2025-10-07 11:20:23 | INFO | HHS Region 03 Urban Female Cerebrovascular diseases: Rate 37.4, SE 0.3
+2025-10-07 11:20:24 | INFO | HHS Region 03 Rural Female Cerebrovascular diseases: Rate 42.1, SE 0.7
+2025-10-07 11:20:25 | INFO | HHS Region 04 Urban Male Cerebrovascular diseases: Rate 37.5, SE 0.2
+2025-10-07 11:20:26 | INFO | HHS Region 04 Rural Male Cerebrovascular diseases: Rate 49.1, SE 0.5
+2025-10-07 11:20:27 | INFO | HHS Region 04 Urban Female Cerebrovascular diseases: Rate 36.4, SE 0.2
+2025-10-07 11:20:28 | INFO | HHS Region 04 Rural Female Cerebrovascular diseases: Rate 46.6, SE 0.4
+2025-10-07 11:20:29 | INFO | HHS Region 05 Urban Male Cerebrovascular diseases: Rate 38.3, SE 0.3
+2025-10-07 11:20:30 | INFO | HHS Region 05 Rural Male Cerebrovascular diseases: Rate 40.6, SE 0.5
+2025-10-07 11:20:31 | INFO | HHS Region 05 Urban Female Cerebrovascular diseases: Rate 36.5, SE 0.2
+2025-10-07 11:20:32 | INFO | HHS Region 05 Rural Female Cerebrovascular diseases: Rate 40.1, SE 0.4
+2025-10-07 11:20:33 | INFO | HHS Region 06 Urban Male Cerebrovascular diseases: Rate 41.4, SE 0.4
+2025-10-07 11:20:34 | INFO | HHS Region 06 Rural Male Cerebrovascular diseases: Rate 45.9, SE 0.7
+2025-10-07 11:20:35 | INFO | HHS Region 06 Urban Female Cerebrovascular diseases: Rate 39.6, SE 0.3
+2025-10-07 11:20:36 | INFO | HHS Region 06 Rural Female Cerebrovascular diseases: Rate 47.2, SE 0.6
+2025-10-07 11:20:37 | INFO | HHS Region 07 Urban Male Cerebrovascular diseases: Rate 38.0, SE 0.6
+2025-10-07 11:20:38 | INFO | HHS Region 07 Rural Male Cerebrovascular diseases: Rate 39.2, SE 0.7
+2025-10-07 11:20:39 | INFO | HHS Region 07 Urban Female Cerebrovascular diseases: Rate 37.3, SE 0.5
+2025-10-07 11:20:40 | INFO | HHS Region 07 Rural Female Cerebrovascular diseases: Rate 40.1, SE 0.6
+2025-10-07 11:20:41 | INFO | HHS Region 08 Urban Male Cerebrovascular diseases: Rate 33.7, SE 0.6
+2025-10-07 11:20:42 | INFO | HHS Region 08 Rural Male Cerebrovascular diseases: Rate 36.2, SE 0.9
+2025-10-07 11:20:43 | INFO | HHS Region 08 Urban Female Cerebrovascular diseases: Rate 34.3, SE 0.5
+2025-10-07 11:20:44 | INFO | HHS Region 08 Rural Female Cerebrovascular diseases: Rate 38.0, SE 0.8
+2025-10-07 11:20:45 | INFO | HHS Region 09 Urban Male Cerebrovascular diseases: Rate 34.5, SE 0.2
+2025-10-07 11:20:46 | INFO | HHS Region 09 Rural Male Cerebrovascular diseases: Rate 36.6, SE 1.1
+2025-10-07 11:20:47 | INFO | HHS Region 09 Urban Female Cerebrovascular diseases: Rate 34.0, SE 0.2
+2025-10-07 11:20:48 | INFO | HHS Region 09 Rural Female Cerebrovascular diseases: Rate 37.5, SE 1.0
+2025-10-07 11:20:49 | INFO | HHS Region 10 Urban Male Cerebrovascular diseases: Rate 36.8, SE 0.5
+2025-10-07 11:20:50 | INFO | HHS Region 10 Rural Male Cerebrovascular diseases: Rate 37.1, SE 1.0
+2025-10-07 11:20:51 | INFO | HHS Region 10 Urban Female Cerebrovascular diseases: Rate 35.2, SE 0.4
+2025-10-07 11:20:52 | INFO | HHS Region 10 Rural Female Cerebrovascular diseases: Rate 40.3, SE 1.0
+2025-10-07 11:20:53 | INFO | HHS Region 01 Urban Male Alzheimers: Rate 16.4, SE 0.3
+2025-10-07 11:20:55 | INFO | HHS Region 01 Rural Male Alzheimers: Rate 18.1, SE 0.8
+2025-10-07 11:20:56 | INFO | HHS Region 01 Urban Female Alzheimers: Rate 21.8, SE 0.3
+2025-10-07 11:20:57 | INFO | HHS Region 01 Rural Female Alzheimers: Rate 27.9, SE 0.8
+2025-10-07 11:20:58 | INFO | HHS Region 02 Urban Male Alzheimers: Rate 10.5, SE 0.2
+2025-10-07 11:20:59 | INFO | HHS Region 02 Rural Male Alzheimers: Rate 12.3, SE 0.7
+2025-10-07 11:21:00 | INFO | HHS Region 02 Urban Female Alzheimers: Rate 13.6, SE 0.1
+2025-10-07 11:21:01 | INFO | HHS Region 02 Rural Female Alzheimers: Rate 17.9, SE 0.7
+2025-10-07 11:21:02 | INFO | HHS Region 03 Urban Male Alzheimers: Rate 15.2, SE 0.2
+2025-10-07 11:21:03 | INFO | HHS Region 03 Rural Male Alzheimers: Rate 17.9, SE 0.6
+2025-10-07 11:21:04 | INFO | HHS Region 03 Urban Female Alzheimers: Rate 19.9, SE 0.2
+2025-10-07 11:21:05 | INFO | HHS Region 03 Rural Female Alzheimers: Rate 26.2, SE 0.5
+2025-10-07 11:21:06 | INFO | HHS Region 04 Urban Male Alzheimers: Rate 18.3, SE 0.2
+2025-10-07 11:21:07 | INFO | HHS Region 04 Rural Male Alzheimers: Rate 25.3, SE 0.4
+2025-10-07 11:21:08 | INFO | HHS Region 04 Urban Female Alzheimers: Rate 25.8, SE 0.2
+2025-10-07 11:21:09 | INFO | HHS Region 04 Rural Female Alzheimers: Rate 35.2, SE 0.4
+2025-10-07 11:21:10 | INFO | HHS Region 05 Urban Male Alzheimers: Rate 20.0, SE 0.2
+2025-10-07 11:21:11 | INFO | HHS Region 05 Rural Male Alzheimers: Rate 20.9, SE 0.4
+2025-10-07 11:21:12 | INFO | HHS Region 05 Urban Female Alzheimers: Rate 26.0, SE 0.2
+2025-10-07 11:21:13 | INFO | HHS Region 05 Rural Female Alzheimers: Rate 29.2, SE 0.3
+2025-10-07 11:21:14 | INFO | HHS Region 06 Urban Male Alzheimers: Rate 20.7, SE 0.3
+2025-10-07 11:21:15 | INFO | HHS Region 06 Rural Male Alzheimers: Rate 22.5, SE 0.5
+2025-10-07 11:21:16 | INFO | HHS Region 06 Urban Female Alzheimers: Rate 27.7, SE 0.2
+2025-10-07 11:21:17 | INFO | HHS Region 06 Rural Female Alzheimers: Rate 33.0, SE 0.5
+2025-10-07 11:21:18 | INFO | HHS Region 07 Urban Male Alzheimers: Rate 21.0, SE 0.4
+2025-10-07 11:21:19 | INFO | HHS Region 07 Rural Male Alzheimers: Rate 23.8, SE 0.5
+2025-10-07 11:21:20 | INFO | HHS Region 07 Urban Female Alzheimers: Rate 27.8, SE 0.4
+2025-10-07 11:21:21 | INFO | HHS Region 07 Rural Female Alzheimers: Rate 30.3, SE 0.5
+2025-10-07 11:21:22 | INFO | HHS Region 08 Urban Male Alzheimers: Rate 23.7, SE 0.5
+2025-10-07 11:21:23 | INFO | HHS Region 08 Rural Male Alzheimers: Rate 21.2, SE 0.7
+2025-10-07 11:21:24 | INFO | HHS Region 08 Urban Female Alzheimers: Rate 30.9, SE 0.5
+2025-10-07 11:21:25 | INFO | HHS Region 08 Rural Female Alzheimers: Rate 28.3, SE 0.7
+2025-10-07 11:21:26 | INFO | HHS Region 09 Urban Male Alzheimers: Rate 24.9, SE 0.2
+2025-10-07 11:21:27 | INFO | HHS Region 09 Rural Male Alzheimers: Rate 18.9, SE 0.8
+2025-10-07 11:21:28 | INFO | HHS Region 09 Urban Female Alzheimers: Rate 32.1, SE 0.2
+2025-10-07 11:21:29 | INFO | HHS Region 09 Rural Female Alzheimers: Rate 24.0, SE 0.8
+2025-10-07 11:21:30 | INFO | HHS Region 10 Urban Male Alzheimers: Rate 29.9, SE 0.5
+2025-10-07 11:21:31 | INFO | HHS Region 10 Rural Male Alzheimers: Rate 22.9, SE 0.8
+2025-10-07 11:21:32 | INFO | HHS Region 10 Urban Female Alzheimers: Rate 40.8, SE 0.4
+2025-10-07 11:21:33 | INFO | HHS Region 10 Rural Female Alzheimers: Rate 33.9, SE 0.9
+2025-10-07 11:21:34 | INFO | HHS Region 01 Urban Male Diabetes: Rate 19.2, SE 0.3
+2025-10-07 11:21:35 | INFO | HHS Region 01 Rural Male Diabetes: Rate 23.8, SE 0.9
+2025-10-07 11:21:36 | WARNING | Mortality Producer interrupted by user.
+2025-10-07 11:21:36 | INFO | Mortality Producer shutting down.

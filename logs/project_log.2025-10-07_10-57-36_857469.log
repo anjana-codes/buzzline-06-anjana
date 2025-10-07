@@ -1,0 +1,563 @@
+2025-10-07 10:57:36 | INFO | HHS Region 02 Urban Female Nephritis: Rate 8.6, SE 0.1
+2025-10-07 10:57:37 | INFO | HHS Region 02 Rural Female Nephritis: Rate 11.6, SE 0.6
+2025-10-07 10:57:38 | INFO | HHS Region 03 Urban Male Nephritis: Rate 18.8, SE 0.2
+2025-10-07 10:57:39 | INFO | HHS Region 03 Rural Male Nephritis: Rate 22.4, SE 0.6
+2025-10-07 10:57:40 | INFO | HHS Region 03 Urban Female Nephritis: Rate 13.0, SE 0.2
+2025-10-07 10:57:41 | INFO | HHS Region 03 Rural Female Nephritis: Rate 17.0, SE 0.5
+2025-10-07 10:57:42 | INFO | HHS Region 04 Urban Male Nephritis: Rate 17.2, SE 0.2
+2025-10-07 10:57:43 | INFO | HHS Region 04 Rural Male Nephritis: Rate 22.6, SE 0.4
+2025-10-07 10:57:44 | INFO | HHS Region 04 Urban Female Nephritis: Rate 11.7, SE 0.1
+2025-10-07 10:57:45 | INFO | HHS Region 04 Rural Female Nephritis: Rate 17.3, SE 0.3
+2025-10-07 10:57:46 | INFO | HHS Region 05 Urban Male Nephritis: Rate 18.5, SE 0.2
+2025-10-07 10:57:48 | INFO | HHS Region 05 Rural Male Nephritis: Rate 17.9, SE 0.3
+2025-10-07 10:57:49 | INFO | HHS Region 05 Urban Female Nephritis: Rate 12.9, SE 0.1
+2025-10-07 10:57:50 | INFO | HHS Region 05 Rural Female Nephritis: Rate 12.8, SE 0.2
+2025-10-07 10:57:51 | INFO | HHS Region 06 Urban Male Nephritis: Rate 19.4, SE 0.2
+2025-10-07 10:57:52 | INFO | HHS Region 06 Rural Male Nephritis: Rate 21.5, SE 0.4
+2025-10-07 10:57:53 | INFO | HHS Region 06 Urban Female Nephritis: Rate 14.3, SE 0.2
+2025-10-07 10:57:54 | INFO | HHS Region 06 Rural Female Nephritis: Rate 16.7, SE 0.3
+2025-10-07 10:57:55 | INFO | HHS Region 07 Urban Male Nephritis: Rate 18.1, SE 0.4
+2025-10-07 10:57:56 | INFO | HHS Region 07 Rural Male Nephritis: Rate 16.5, SE 0.5
+2025-10-07 10:57:57 | INFO | HHS Region 07 Urban Female Nephritis: Rate 12.3, SE 0.3
+2025-10-07 10:57:58 | INFO | HHS Region 07 Rural Female Nephritis: Rate 12.5, SE 0.3
+2025-10-07 10:57:59 | INFO | HHS Region 08 Urban Male Nephritis: Rate 12.9, SE 0.4
+2025-10-07 10:58:00 | INFO | HHS Region 08 Rural Male Nephritis: Rate 10.8, SE 0.5
+2025-10-07 10:58:01 | INFO | HHS Region 08 Urban Female Nephritis: Rate 8.3, SE 0.3
+2025-10-07 10:58:02 | INFO | HHS Region 08 Rural Female Nephritis: Rate 8.5, SE 0.4
+2025-10-07 10:58:03 | INFO | HHS Region 09 Urban Male Nephritis: Rate 9.0, SE 0.1
+2025-10-07 10:58:04 | INFO | HHS Region 09 Rural Male Nephritis: Rate 12.6, SE 0.7
+2025-10-07 10:58:05 | INFO | HHS Region 09 Urban Female Nephritis: Rate 6.1, SE 0.1
+2025-10-07 10:58:06 | INFO | HHS Region 09 Rural Female Nephritis: Rate 8.4, SE 0.5
+2025-10-07 10:58:07 | INFO | HHS Region 10 Urban Male Nephritis: Rate 8.6, SE 0.3
+2025-10-07 10:58:08 | INFO | HHS Region 10 Rural Male Nephritis: Rate 8.6, SE 0.5
+2025-10-07 10:58:08 | WARNING | Mortality Producer interrupted by user.
+2025-10-07 10:58:08 | INFO | Mortality Producer shutting down.
+2025-10-07 11:10:46 | INFO | Logging to file: logs/project_log.log
+2025-10-07 11:10:46 | INFO | Log sanitization enabled, personal info removed
+2025-10-07 11:10:46 | INFO | Starting Mortality Data Producer
+2025-10-07 11:10:46 | INFO | Streaming mortality data from data/USRegionalMortality.csv
+2025-10-07 11:10:46 | INFO | Use Ctrl+C to stop.
+2025-10-07 11:10:46 | INFO | MESSAGE_INTERVAL_SECONDS: 1
+2025-10-07 11:10:46 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-06-anjana/data
+2025-10-07 11:10:46 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-06-anjana/data/project_live.json
+2025-10-07 11:10:46 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-06-anjana/data
+2025-10-07 11:10:46 | INFO | SQLITE_PATH: C:/Users/USER/Documents/buzzline-06-anjana/data/buzz.sqlite
+2025-10-07 11:10:46 | INFO | SQLite database initialized at C:/Users/USER/Documents/buzzline-06-anjana/data/buzz.sqlite
+2025-10-07 11:10:46 | INFO | HHS Region 01 Urban Male Heart disease: Rate 188.2, SE 1.0
+2025-10-07 11:10:47 | INFO | HHS Region 01 Rural Male Heart disease: Rate 199.1, SE 2.6
+2025-10-07 11:10:48 | INFO | HHS Region 01 Urban Female Heart disease: Rate 115.1, SE 0.6
+2025-10-07 11:10:49 | INFO | HHS Region 01 Rural Female Heart disease: Rate 124.5, SE 1.7
+2025-10-07 11:10:50 | INFO | HHS Region 02 Urban Male Heart disease: Rate 226.8, SE 0.8
+2025-10-07 11:10:51 | INFO | HHS Region 02 Rural Male Heart disease: Rate 248.8, SE 3.3
+2025-10-07 11:10:52 | INFO | HHS Region 02 Urban Female Heart disease: Rate 148.6, SE 0.5
+2025-10-07 11:10:53 | INFO | HHS Region 02 Rural Female Heart disease: Rate 165.6, SE 2.3
+2025-10-07 11:10:54 | INFO | HHS Region 03 Urban Male Heart disease: Rate 218.2, SE 0.8
+2025-10-07 11:10:55 | INFO | HHS Region 03 Rural Male Heart disease: Rate 246.0, SE 2.0
+2025-10-07 11:10:56 | INFO | HHS Region 03 Urban Female Heart disease: Rate 138.1, SE 0.5
+2025-10-07 11:10:57 | INFO | HHS Region 03 Rural Female Heart disease: Rate 162.5, SE 1.4
+2025-10-07 11:10:58 | INFO | HHS Region 04 Urban Male Heart disease: Rate 212.8, SE 0.5
+2025-10-07 11:10:59 | INFO | HHS Region 04 Rural Male Heart disease: Rate 276.4, SE 1.3
+2025-10-07 11:11:00 | INFO | HHS Region 04 Urban Female Heart disease: Rate 132.2, SE 0.4
+2025-10-07 11:11:01 | INFO | HHS Region 04 Rural Female Heart disease: Rate 176.8, SE 0.9
+2025-10-07 11:11:02 | INFO | HHS Region 05 Urban Male Heart disease: Rate 222.5, SE 0.6
+2025-10-07 11:11:03 | INFO | HHS Region 05 Rural Male Heart disease: Rate 229.0, SE 1.2
+2025-10-07 11:11:04 | INFO | HHS Region 05 Urban Female Heart disease: Rate 139.6, SE 0.4
+2025-10-07 11:11:05 | INFO | HHS Region 05 Rural Female Heart disease: Rate 140.8, SE 0.8
+2025-10-07 11:11:06 | INFO | HHS Region 06 Urban Male Heart disease: Rate 219.9, SE 0.8
+2025-10-07 11:11:07 | INFO | HHS Region 06 Rural Male Heart disease: Rate 266.4, SE 1.6
+2025-10-07 11:11:08 | INFO | HHS Region 06 Urban Female Heart disease: Rate 140.7, SE 0.5
+2025-10-07 11:11:09 | INFO | HHS Region 06 Rural Female Heart disease: Rate 175.7, SE 1.1
+2025-10-07 11:11:10 | INFO | HHS Region 07 Urban Male Heart disease: Rate 210.0, SE 1.3
+2025-10-07 11:11:11 | INFO | HHS Region 07 Rural Male Heart disease: Rate 237.7, SE 1.7
+2025-10-07 11:11:12 | INFO | HHS Region 07 Urban Female Heart disease: Rate 131.1, SE 0.9
+2025-10-07 11:11:13 | INFO | HHS Region 07 Rural Female Heart disease: Rate 152.3, SE 1.2
+2025-10-07 11:11:14 | INFO | HHS Region 08 Urban Male Heart disease: Rate 166.5, SE 1.4
+2025-10-07 11:11:16 | INFO | HHS Region 08 Rural Male Heart disease: Rate 191.2, SE 2.1
+2025-10-07 11:11:17 | INFO | HHS Region 08 Urban Female Heart disease: Rate 106.7, SE 0.9
+2025-10-07 11:11:18 | INFO | HHS Region 08 Rural Female Heart disease: Rate 119.8, SE 1.4
+2025-10-07 11:11:19 | INFO | HHS Region 09 Urban Male Heart disease: Rate 195.8, SE 0.6
+2025-10-07 11:11:20 | INFO | HHS Region 09 Rural Male Heart disease: Rate 205.8, SE 2.7
+2025-10-07 11:11:21 | INFO | HHS Region 09 Urban Female Heart disease: Rate 121.0, SE 0.4
+2025-10-07 11:11:22 | INFO | HHS Region 09 Rural Female Heart disease: Rate 125.2, SE 1.9
+2025-10-07 11:11:23 | INFO | HHS Region 10 Urban Male Heart disease: Rate 176.0, SE 1.1
+2025-10-07 11:11:24 | INFO | HHS Region 10 Rural Male Heart disease: Rate 194.9, SE 2.3
+2025-10-07 11:11:25 | INFO | HHS Region 10 Urban Female Heart disease: Rate 106.0, SE 0.7
+2025-10-07 11:11:26 | INFO | HHS Region 10 Rural Female Heart disease: Rate 114.3, SE 1.6
+2025-10-07 11:11:27 | INFO | HHS Region 01 Urban Male Cancer: Rate 194.5, SE 1.0
+2025-10-07 11:11:28 | INFO | HHS Region 01 Rural Male Cancer: Rate 202.7, SE 2.5
+2025-10-07 11:11:29 | INFO | HHS Region 01 Urban Female Cancer: Rate 140.3, SE 0.8
+2025-10-07 11:11:30 | INFO | HHS Region 01 Rural Female Cancer: Rate 144.7, SE 2.0
+2025-10-07 11:11:31 | INFO | HHS Region 02 Urban Male Cancer: Rate 187.5, SE 0.7
+2025-10-07 11:11:32 | INFO | HHS Region 02 Rural Male Cancer: Rate 204.9, SE 2.9
+2025-10-07 11:11:33 | INFO | HHS Region 02 Urban Female Cancer: Rate 139.2, SE 0.5
+2025-10-07 11:11:34 | INFO | HHS Region 02 Rural Female Cancer: Rate 151.7, SE 2.3
+2025-10-07 11:11:35 | INFO | HHS Region 03 Urban Male Cancer: Rate 204.3, SE 0.7
+2025-10-07 11:11:36 | INFO | HHS Region 03 Rural Male Cancer: Rate 224.7, SE 1.9
+2025-10-07 11:11:37 | INFO | HHS Region 03 Urban Female Cancer: Rate 146.7, SE 0.5
+2025-10-07 11:11:38 | INFO | HHS Region 03 Rural Female Cancer: Rate 156.7, SE 1.4
+2025-10-07 11:11:39 | INFO | HHS Region 04 Urban Male Cancer: Rate 204.7, SE 0.5
+2025-10-07 11:11:40 | INFO | HHS Region 04 Rural Male Cancer: Rate 245.2, SE 1.2
+2025-10-07 11:11:41 | INFO | HHS Region 04 Urban Female Cancer: Rate 139.9, SE 0.4
+2025-10-07 11:11:42 | INFO | HHS Region 04 Rural Female Cancer: Rate 156.2, SE 0.8
+2025-10-07 11:11:43 | INFO | HHS Region 05 Urban Male Cancer: Rate 207.3, SE 0.6
+2025-10-07 11:11:44 | INFO | HHS Region 05 Rural Male Cancer: Rate 217.2, SE 1.1
+2025-10-07 11:11:45 | INFO | HHS Region 05 Urban Female Cancer: Rate 149.9, SE 0.4
+2025-10-07 11:11:46 | INFO | HHS Region 05 Rural Female Cancer: Rate 152.0, SE 0.9
+2025-10-07 11:11:47 | INFO | HHS Region 06 Urban Male Cancer: Rate 201.6, SE 0.7
+2025-10-07 11:11:48 | INFO | HHS Region 06 Rural Male Cancer: Rate 223.8, SE 1.4
+2025-10-07 11:11:49 | INFO | HHS Region 06 Urban Female Cancer: Rate 137.8, SE 0.5
+2025-10-07 11:11:50 | INFO | HHS Region 06 Rural Female Cancer: Rate 151.8, SE 1.1
+2025-10-07 11:11:51 | INFO | HHS Region 07 Urban Male Cancer: Rate 204.3, SE 1.3
+2025-10-07 11:11:52 | INFO | HHS Region 07 Rural Male Cancer: Rate 214.1, SE 1.6
+2025-10-07 11:11:53 | INFO | HHS Region 07 Urban Female Cancer: Rate 148.0, SE 1.0
+2025-10-07 11:11:54 | INFO | HHS Region 07 Rural Female Cancer: Rate 149.7, SE 1.3
+2025-10-07 11:11:55 | INFO | HHS Region 08 Urban Male Cancer: Rate 167.0, SE 1.3
+2025-10-07 11:11:56 | INFO | HHS Region 08 Rural Male Cancer: Rate 173.7, SE 1.9
+2025-10-07 11:11:57 | INFO | HHS Region 08 Urban Female Cancer: Rate 122.5, SE 1.0
+2025-10-07 11:11:58 | INFO | HHS Region 08 Rural Female Cancer: Rate 132.6, SE 1.6
+2025-10-07 11:11:59 | INFO | HHS Region 09 Urban Male Cancer: Rate 176.1, SE 0.5
+2025-10-07 11:12:00 | INFO | HHS Region 09 Rural Male Cancer: Rate 186.7, SE 2.5
+2025-10-07 11:12:01 | INFO | HHS Region 09 Urban Female Cancer: Rate 130.1, SE 0.4
+2025-10-07 11:12:02 | INFO | HHS Region 09 Rural Female Cancer: Rate 135.7, SE 2.0
+2025-10-07 11:12:03 | INFO | HHS Region 10 Urban Male Cancer: Rate 190.6, SE 1.1
+2025-10-07 11:12:04 | INFO | HHS Region 10 Rural Male Cancer: Rate 197.1, SE 2.3
+2025-10-07 11:12:05 | INFO | HHS Region 10 Urban Female Cancer: Rate 140.9, SE 0.9
+2025-10-07 11:12:06 | INFO | HHS Region 10 Rural Female Cancer: Rate 143.8, SE 1.9
+2025-10-07 11:12:07 | INFO | HHS Region 01 Urban Male Lower respiratory: Rate 36.7, SE 0.5
+2025-10-07 11:12:08 | INFO | HHS Region 01 Rural Male Lower respiratory: Rate 51.7, SE 1.3
+2025-10-07 11:12:09 | INFO | HHS Region 01 Urban Female Lower respiratory: Rate 32.2, SE 0.4
+2025-10-07 11:12:10 | INFO | HHS Region 01 Rural Female Lower respiratory: Rate 41.3, SE 1.0
+2025-10-07 11:12:11 | INFO | HHS Region 02 Urban Male Lower respiratory: Rate 33.0, SE 0.3
+2025-10-07 11:12:12 | INFO | HHS Region 02 Rural Male Lower respiratory: Rate 59.3, SE 1.6
+2025-10-07 11:12:13 | INFO | HHS Region 02 Urban Female Lower respiratory: Rate 28.0, SE 0.2
+2025-10-07 11:12:14 | INFO | HHS Region 02 Rural Female Lower respiratory: Rate 46.3, SE 1.2
+2025-10-07 11:12:15 | INFO | HHS Region 03 Urban Male Lower respiratory: Rate 41.7, SE 0.3
+2025-10-07 11:12:16 | INFO | HHS Region 03 Rural Male Lower respiratory: Rate 62.1, SE 1.0
+2025-10-07 11:12:17 | INFO | HHS Region 03 Urban Female Lower respiratory: Rate 34.4, SE 0.3
+2025-10-07 11:12:18 | INFO | HHS Region 03 Rural Female Lower respiratory: Rate 46.4, SE 0.8
+2025-10-07 11:12:19 | INFO | HHS Region 04 Urban Male Lower respiratory: Rate 48.5, SE 0.3
+2025-10-07 11:12:20 | INFO | HHS Region 04 Rural Male Lower respiratory: Rate 70.7, SE 0.6
+2025-10-07 11:12:21 | INFO | HHS Region 04 Urban Female Lower respiratory: Rate 39.9, SE 0.2
+2025-10-07 11:12:22 | INFO | HHS Region 04 Rural Female Lower respiratory: Rate 51.1, SE 0.5
+2025-10-07 11:12:23 | INFO | HHS Region 05 Urban Male Lower respiratory: Rate 48.7, SE 0.3
+2025-10-07 11:12:24 | INFO | HHS Region 05 Rural Male Lower respiratory: Rate 59.9, SE 0.6
+2025-10-07 11:12:25 | INFO | HHS Region 05 Urban Female Lower respiratory: Rate 40.1, SE 0.2
+2025-10-07 11:12:26 | INFO | HHS Region 05 Rural Female Lower respiratory: Rate 44.7, SE 0.4
+2025-10-07 11:12:27 | INFO | HHS Region 06 Urban Male Lower respiratory: Rate 49.5, SE 0.4
+2025-10-07 11:12:28 | INFO | HHS Region 06 Rural Male Lower respiratory: Rate 65.8, SE 0.8
+2025-10-07 11:12:29 | INFO | HHS Region 06 Urban Female Lower respiratory: Rate 39.4, SE 0.3
+2025-10-07 11:12:30 | INFO | HHS Region 06 Rural Female Lower respiratory: Rate 50.5, SE 0.6
+2025-10-07 11:12:32 | INFO | HHS Region 07 Urban Male Lower respiratory: Rate 54.8, SE 0.7
+2025-10-07 11:12:33 | INFO | HHS Region 07 Rural Male Lower respiratory: Rate 65.9, SE 0.9
+2025-10-07 11:12:34 | INFO | HHS Region 07 Urban Female Lower respiratory: Rate 44.0, SE 0.5
+2025-10-07 11:12:35 | INFO | HHS Region 07 Rural Female Lower respiratory: Rate 45.6, SE 0.7
+2025-10-07 11:12:36 | INFO | HHS Region 08 Urban Male Lower respiratory: Rate 48.9, SE 0.7
+2025-10-07 11:12:37 | INFO | HHS Region 08 Rural Male Lower respiratory: Rate 56.1, SE 1.1
+2025-10-07 11:12:38 | INFO | HHS Region 08 Urban Female Lower respiratory: Rate 37.1, SE 0.6
+2025-10-07 11:12:39 | INFO | HHS Region 08 Rural Female Lower respiratory: Rate 40.2, SE 0.9
+2025-10-07 11:12:40 | INFO | HHS Region 09 Urban Male Lower respiratory: Rate 40.6, SE 0.3
+2025-10-07 11:12:41 | INFO | HHS Region 09 Rural Male Lower respiratory: Rate 50.7, SE 1.3
+2025-10-07 11:12:42 | INFO | HHS Region 09 Urban Female Lower respiratory: Rate 33.7, SE 0.2
+2025-10-07 11:12:43 | INFO | HHS Region 09 Rural Female Lower respiratory: Rate 43.6, SE 1.1
+2025-10-07 11:12:44 | INFO | HHS Region 10 Urban Male Lower respiratory: Rate 46.3, SE 0.6
+2025-10-07 11:12:45 | INFO | HHS Region 10 Rural Male Lower respiratory: Rate 52.3, SE 1.2
+2025-10-07 11:12:46 | INFO | HHS Region 10 Urban Female Lower respiratory: Rate 38.4, SE 0.5
+2025-10-07 11:12:47 | INFO | HHS Region 10 Rural Female Lower respiratory: Rate 45.3, SE 1.0
+2025-10-07 11:12:48 | INFO | HHS Region 01 Urban Male Unintentional injuries: Rate 47.4, SE 0.5
+2025-10-07 11:12:49 | INFO | HHS Region 01 Rural Male Unintentional injuries: Rate 60.5, SE 1.5
+2025-10-07 11:12:50 | INFO | HHS Region 01 Urban Female Unintentional injuries: Rate 22.5, SE 0.3
+2025-10-07 11:12:51 | INFO | HHS Region 01 Rural Female Unintentional injuries: Rate 28.8, SE 1.0
+2025-10-07 11:12:52 | INFO | HHS Region 02 Urban Male Unintentional injuries: Rate 39.7, SE 0.3
+2025-10-07 11:12:53 | INFO | HHS Region 02 Rural Male Unintentional injuries: Rate 49.6, SE 1.5
+2025-10-07 11:12:54 | INFO | HHS Region 02 Urban Female Unintentional injuries: Rate 17.0, SE 0.2
+2025-10-07 11:12:55 | INFO | HHS Region 02 Rural Female Unintentional injuries: Rate 23.4, SE 1.0
+2025-10-07 11:12:56 | INFO | HHS Region 03 Urban Male Unintentional injuries: Rate 51.8, SE 0.4
+2025-10-07 11:12:57 | INFO | HHS Region 03 Rural Male Unintentional injuries: Rate 77.6, SE 1.2
+2025-10-07 11:12:58 | INFO | HHS Region 03 Urban Female Unintentional injuries: Rate 24.3, SE 0.2
+2025-10-07 11:12:59 | INFO | HHS Region 03 Rural Female Unintentional injuries: Rate 39.8, SE 0.9
+2025-10-07 11:13:00 | INFO | HHS Region 04 Urban Male Unintentional injuries: Rate 56.2, SE 0.3
+2025-10-07 11:13:01 | INFO | HHS Region 04 Rural Male Unintentional injuries: Rate 79.1, SE 0.7
+2025-10-07 11:13:02 | INFO | HHS Region 04 Urban Female Unintentional injuries: Rate 28.6, SE 0.2
+2025-10-07 11:13:03 | INFO | HHS Region 04 Rural Female Unintentional injuries: Rate 41.3, SE 0.5
+2025-10-07 11:13:04 | INFO | HHS Region 05 Urban Male Unintentional injuries: Rate 50.9, SE 0.3
+2025-10-07 11:13:05 | INFO | HHS Region 05 Rural Male Unintentional injuries: Rate 62.3, SE 0.7
+2025-10-07 11:13:06 | INFO | HHS Region 05 Urban Female Unintentional injuries: Rate 25.9, SE 0.2
+2025-10-07 11:13:07 | INFO | HHS Region 05 Rural Female Unintentional injuries: Rate 32.3, SE 0.4
+2025-10-07 11:13:08 | INFO | HHS Region 06 Urban Male Unintentional injuries: Rate 54.6, SE 0.4
+2025-10-07 11:13:09 | INFO | HHS Region 06 Rural Male Unintentional injuries: Rate 77.2, SE 0.9
+2025-10-07 11:13:10 | INFO | HHS Region 06 Urban Female Unintentional injuries: Rate 27.0, SE 0.2
+2025-10-07 11:13:11 | INFO | HHS Region 06 Rural Female Unintentional injuries: Rate 39.9, SE 0.6
+2025-10-07 11:13:12 | INFO | HHS Region 07 Urban Male Unintentional injuries: Rate 53.4, SE 0.6
+2025-10-07 11:13:13 | INFO | HHS Region 07 Rural Male Unintentional injuries: Rate 68.1, SE 1.0
+2025-10-07 11:13:14 | INFO | HHS Region 07 Urban Female Unintentional injuries: Rate 28.7, SE 0.4
+2025-10-07 11:13:15 | INFO | HHS Region 07 Rural Female Unintentional injuries: Rate 35.4, SE 0.7
+2025-10-07 11:13:16 | INFO | HHS Region 08 Urban Male Unintentional injuries: Rate 55.3, SE 0.7
+2025-10-07 11:13:17 | INFO | HHS Region 08 Rural Male Unintentional injuries: Rate 71.0, SE 1.3
+2025-10-07 11:13:18 | INFO | HHS Region 08 Urban Female Unintentional injuries: Rate 32.7, SE 0.5
+2025-10-07 11:13:19 | INFO | HHS Region 08 Rural Female Unintentional injuries: Rate 39.2, SE 0.9
+2025-10-07 11:13:20 | INFO | HHS Region 09 Urban Male Unintentional injuries: Rate 41.8, SE 0.2
+2025-10-07 11:13:21 | INFO | HHS Region 09 Rural Male Unintentional injuries: Rate 79.1, SE 1.8
+2025-10-07 11:13:22 | INFO | HHS Region 09 Urban Female Unintentional injuries: Rate 20.5, SE 0.2
+2025-10-07 11:13:23 | INFO | HHS Region 09 Rural Female Unintentional injuries: Rate 40.9, SE 1.3
+2025-10-07 11:13:24 | INFO | HHS Region 10 Urban Male Unintentional injuries: Rate 49.8, SE 0.6
+2025-10-07 11:13:25 | INFO | HHS Region 10 Rural Male Unintentional injuries: Rate 66.2, SE 1.5
+2025-10-07 11:13:26 | INFO | HHS Region 10 Urban Female Unintentional injuries: Rate 28.4, SE 0.4
+2025-10-07 11:13:27 | INFO | HHS Region 10 Rural Female Unintentional injuries: Rate 37.2, SE 1.1
+2025-10-07 11:13:28 | INFO | HHS Region 01 Urban Male Cerebrovascular diseases: Rate 28.4, SE 0.4
+2025-10-07 11:13:29 | INFO | HHS Region 01 Rural Male Cerebrovascular diseases: Rate 31.2, SE 1.0
+2025-10-07 11:13:30 | INFO | HHS Region 01 Urban Female Cerebrovascular diseases: Rate 28.5, SE 0.3
+2025-10-07 11:13:31 | INFO | HHS Region 01 Rural Female Cerebrovascular diseases: Rate 33.6, SE 0.9
+2025-10-07 11:13:32 | INFO | HHS Region 02 Urban Male Cerebrovascular diseases: Rate 29.2, SE 0.3
+2025-10-07 11:13:33 | INFO | HHS Region 02 Rural Male Cerebrovascular diseases: Rate 32.9, SE 1.2
+2025-10-07 11:13:34 | INFO | HHS Region 02 Urban Female Cerebrovascular diseases: Rate 27.2, SE 0.2
+2025-10-07 11:13:35 | INFO | HHS Region 02 Rural Female Cerebrovascular diseases: Rate 32.2, SE 1.0
+2025-10-07 11:13:36 | INFO | HHS Region 03 Urban Male Cerebrovascular diseases: Rate 38.2, SE 0.3
+2025-10-07 11:13:37 | INFO | HHS Region 03 Rural Male Cerebrovascular diseases: Rate 42.5, SE 0.8
+2025-10-07 11:13:38 | INFO | HHS Region 03 Urban Female Cerebrovascular diseases: Rate 37.4, SE 0.3
+2025-10-07 11:13:39 | INFO | HHS Region 03 Rural Female Cerebrovascular diseases: Rate 42.1, SE 0.7
+2025-10-07 11:13:40 | INFO | HHS Region 04 Urban Male Cerebrovascular diseases: Rate 37.5, SE 0.2
+2025-10-07 11:13:41 | INFO | HHS Region 04 Rural Male Cerebrovascular diseases: Rate 49.1, SE 0.5
+2025-10-07 11:13:42 | INFO | HHS Region 04 Urban Female Cerebrovascular diseases: Rate 36.4, SE 0.2
+2025-10-07 11:13:44 | INFO | HHS Region 04 Rural Female Cerebrovascular diseases: Rate 46.6, SE 0.4
+2025-10-07 11:13:45 | INFO | HHS Region 05 Urban Male Cerebrovascular diseases: Rate 38.3, SE 0.3
+2025-10-07 11:13:46 | INFO | HHS Region 05 Rural Male Cerebrovascular diseases: Rate 40.6, SE 0.5
+2025-10-07 11:13:47 | INFO | HHS Region 05 Urban Female Cerebrovascular diseases: Rate 36.5, SE 0.2
+2025-10-07 11:13:48 | INFO | HHS Region 05 Rural Female Cerebrovascular diseases: Rate 40.1, SE 0.4
+2025-10-07 11:13:49 | INFO | HHS Region 06 Urban Male Cerebrovascular diseases: Rate 41.4, SE 0.4
+2025-10-07 11:13:50 | INFO | HHS Region 06 Rural Male Cerebrovascular diseases: Rate 45.9, SE 0.7
+2025-10-07 11:13:51 | INFO | HHS Region 06 Urban Female Cerebrovascular diseases: Rate 39.6, SE 0.3
+2025-10-07 11:13:52 | INFO | HHS Region 06 Rural Female Cerebrovascular diseases: Rate 47.2, SE 0.6
+2025-10-07 11:13:53 | INFO | HHS Region 07 Urban Male Cerebrovascular diseases: Rate 38.0, SE 0.6
+2025-10-07 11:13:54 | INFO | HHS Region 07 Rural Male Cerebrovascular diseases: Rate 39.2, SE 0.7
+2025-10-07 11:13:55 | INFO | HHS Region 07 Urban Female Cerebrovascular diseases: Rate 37.3, SE 0.5
+2025-10-07 11:13:56 | INFO | HHS Region 07 Rural Female Cerebrovascular diseases: Rate 40.1, SE 0.6
+2025-10-07 11:13:57 | INFO | HHS Region 08 Urban Male Cerebrovascular diseases: Rate 33.7, SE 0.6
+2025-10-07 11:13:58 | INFO | HHS Region 08 Rural Male Cerebrovascular diseases: Rate 36.2, SE 0.9
+2025-10-07 11:13:59 | INFO | HHS Region 08 Urban Female Cerebrovascular diseases: Rate 34.3, SE 0.5
+2025-10-07 11:14:00 | INFO | HHS Region 08 Rural Female Cerebrovascular diseases: Rate 38.0, SE 0.8
+2025-10-07 11:14:01 | INFO | HHS Region 09 Urban Male Cerebrovascular diseases: Rate 34.5, SE 0.2
+2025-10-07 11:14:02 | INFO | HHS Region 09 Rural Male Cerebrovascular diseases: Rate 36.6, SE 1.1
+2025-10-07 11:14:03 | INFO | HHS Region 09 Urban Female Cerebrovascular diseases: Rate 34.0, SE 0.2
+2025-10-07 11:14:04 | INFO | HHS Region 09 Rural Female Cerebrovascular diseases: Rate 37.5, SE 1.0
+2025-10-07 11:14:05 | INFO | HHS Region 10 Urban Male Cerebrovascular diseases: Rate 36.8, SE 0.5
+2025-10-07 11:14:06 | INFO | HHS Region 10 Rural Male Cerebrovascular diseases: Rate 37.1, SE 1.0
+2025-10-07 11:14:07 | INFO | HHS Region 10 Urban Female Cerebrovascular diseases: Rate 35.2, SE 0.4
+2025-10-07 11:14:08 | INFO | HHS Region 10 Rural Female Cerebrovascular diseases: Rate 40.3, SE 1.0
+2025-10-07 11:14:09 | INFO | HHS Region 01 Urban Male Alzheimers: Rate 16.4, SE 0.3
+2025-10-07 11:14:10 | INFO | HHS Region 01 Rural Male Alzheimers: Rate 18.1, SE 0.8
+2025-10-07 11:14:11 | INFO | HHS Region 01 Urban Female Alzheimers: Rate 21.8, SE 0.3
+2025-10-07 11:14:12 | INFO | HHS Region 01 Rural Female Alzheimers: Rate 27.9, SE 0.8
+2025-10-07 11:14:13 | INFO | HHS Region 02 Urban Male Alzheimers: Rate 10.5, SE 0.2
+2025-10-07 11:14:14 | INFO | HHS Region 02 Rural Male Alzheimers: Rate 12.3, SE 0.7
+2025-10-07 11:14:15 | INFO | HHS Region 02 Urban Female Alzheimers: Rate 13.6, SE 0.1
+2025-10-07 11:14:16 | INFO | HHS Region 02 Rural Female Alzheimers: Rate 17.9, SE 0.7
+2025-10-07 11:14:17 | INFO | HHS Region 03 Urban Male Alzheimers: Rate 15.2, SE 0.2
+2025-10-07 11:14:18 | INFO | HHS Region 03 Rural Male Alzheimers: Rate 17.9, SE 0.6
+2025-10-07 11:14:19 | INFO | HHS Region 03 Urban Female Alzheimers: Rate 19.9, SE 0.2
+2025-10-07 11:14:20 | INFO | HHS Region 03 Rural Female Alzheimers: Rate 26.2, SE 0.5
+2025-10-07 11:14:21 | INFO | HHS Region 04 Urban Male Alzheimers: Rate 18.3, SE 0.2
+2025-10-07 11:14:22 | INFO | HHS Region 04 Rural Male Alzheimers: Rate 25.3, SE 0.4
+2025-10-07 11:14:23 | INFO | HHS Region 04 Urban Female Alzheimers: Rate 25.8, SE 0.2
+2025-10-07 11:14:24 | INFO | HHS Region 04 Rural Female Alzheimers: Rate 35.2, SE 0.4
+2025-10-07 11:14:25 | INFO | HHS Region 05 Urban Male Alzheimers: Rate 20.0, SE 0.2
+2025-10-07 11:14:26 | INFO | HHS Region 05 Rural Male Alzheimers: Rate 20.9, SE 0.4
+2025-10-07 11:14:27 | INFO | HHS Region 05 Urban Female Alzheimers: Rate 26.0, SE 0.2
+2025-10-07 11:14:28 | INFO | HHS Region 05 Rural Female Alzheimers: Rate 29.2, SE 0.3
+2025-10-07 11:14:29 | INFO | HHS Region 06 Urban Male Alzheimers: Rate 20.7, SE 0.3
+2025-10-07 11:14:30 | INFO | HHS Region 06 Rural Male Alzheimers: Rate 22.5, SE 0.5
+2025-10-07 11:14:31 | INFO | HHS Region 06 Urban Female Alzheimers: Rate 27.7, SE 0.2
+2025-10-07 11:14:32 | INFO | HHS Region 06 Rural Female Alzheimers: Rate 33.0, SE 0.5
+2025-10-07 11:14:33 | INFO | HHS Region 07 Urban Male Alzheimers: Rate 21.0, SE 0.4
+2025-10-07 11:14:34 | INFO | HHS Region 07 Rural Male Alzheimers: Rate 23.8, SE 0.5
+2025-10-07 11:14:35 | INFO | HHS Region 07 Urban Female Alzheimers: Rate 27.8, SE 0.4
+2025-10-07 11:14:36 | INFO | HHS Region 07 Rural Female Alzheimers: Rate 30.3, SE 0.5
+2025-10-07 11:14:37 | INFO | HHS Region 08 Urban Male Alzheimers: Rate 23.7, SE 0.5
+2025-10-07 11:14:38 | INFO | HHS Region 08 Rural Male Alzheimers: Rate 21.2, SE 0.7
+2025-10-07 11:14:39 | INFO | HHS Region 08 Urban Female Alzheimers: Rate 30.9, SE 0.5
+2025-10-07 11:14:40 | INFO | HHS Region 08 Rural Female Alzheimers: Rate 28.3, SE 0.7
+2025-10-07 11:14:41 | INFO | HHS Region 09 Urban Male Alzheimers: Rate 24.9, SE 0.2
+2025-10-07 11:14:42 | INFO | HHS Region 09 Rural Male Alzheimers: Rate 18.9, SE 0.8
+2025-10-07 11:14:43 | INFO | HHS Region 09 Urban Female Alzheimers: Rate 32.1, SE 0.2
+2025-10-07 11:14:44 | INFO | HHS Region 09 Rural Female Alzheimers: Rate 24.0, SE 0.8
+2025-10-07 11:14:45 | INFO | HHS Region 10 Urban Male Alzheimers: Rate 29.9, SE 0.5
+2025-10-07 11:14:46 | INFO | HHS Region 10 Rural Male Alzheimers: Rate 22.9, SE 0.8
+2025-10-07 11:14:47 | INFO | HHS Region 10 Urban Female Alzheimers: Rate 40.8, SE 0.4
+2025-10-07 11:14:48 | INFO | HHS Region 10 Rural Female Alzheimers: Rate 33.9, SE 0.9
+2025-10-07 11:14:49 | INFO | HHS Region 01 Urban Male Diabetes: Rate 19.2, SE 0.3
+2025-10-07 11:14:50 | INFO | HHS Region 01 Rural Male Diabetes: Rate 23.8, SE 0.9
+2025-10-07 11:14:51 | INFO | HHS Region 01 Urban Female Diabetes: Rate 12.1, SE 0.2
+2025-10-07 11:14:52 | INFO | HHS Region 01 Rural Female Diabetes: Rate 15.0, SE 0.6
+2025-10-07 11:14:53 | INFO | HHS Region 02 Urban Male Diabetes: Rate 22.7, SE 0.2
+2025-10-07 11:14:54 | INFO | HHS Region 02 Rural Male Diabetes: Rate 24.5, SE 1.0
+2025-10-07 11:14:55 | INFO | HHS Region 02 Urban Female Diabetes: Rate 15.2, SE 0.2
+2025-10-07 11:14:56 | INFO | HHS Region 02 Rural Female Diabetes: Rate 17.6, SE 0.8
+2025-10-07 11:14:57 | INFO | HHS Region 03 Urban Male Diabetes: Rate 25.0, SE 0.3
+2025-10-07 11:14:58 | INFO | HHS Region 03 Rural Male Diabetes: Rate 32.5, SE 0.7
+2025-10-07 11:14:59 | INFO | HHS Region 03 Urban Female Diabetes: Rate 17.2, SE 0.2
+2025-10-07 11:15:00 | INFO | HHS Region 03 Rural Female Diabetes: Rate 24.1, SE 0.6
+2025-10-07 11:15:01 | INFO | HHS Region 04 Urban Male Diabetes: Rate 25.2, SE 0.2
+2025-10-07 11:15:02 | INFO | HHS Region 04 Rural Male Diabetes: Rate 32.0, SE 0.4
+2025-10-07 11:15:03 | INFO | HHS Region 04 Urban Female Diabetes: Rate 17.4, SE 0.1
+2025-10-07 11:15:04 | INFO | HHS Region 04 Rural Female Diabetes: Rate 25.0, SE 0.3
+2025-10-07 11:15:05 | INFO | HHS Region 05 Urban Male Diabetes: Rate 26.6, SE 0.2
+2025-10-07 11:15:06 | INFO | HHS Region 05 Rural Male Diabetes: Rate 28.5, SE 0.4
+2025-10-07 11:15:07 | INFO | HHS Region 05 Urban Female Diabetes: Rate 18.6, SE 0.2
+2025-10-07 11:15:08 | INFO | HHS Region 05 Rural Female Diabetes: Rate 20.3, SE 0.3
+2025-10-07 11:15:09 | INFO | HHS Region 06 Urban Male Diabetes: Rate 26.2, SE 0.3
+2025-10-07 11:15:10 | INFO | HHS Region 06 Rural Male Diabetes: Rate 32.8, SE 0.5
+2025-10-07 11:15:12 | INFO | HHS Region 06 Urban Female Diabetes: Rate 19.9, SE 0.2
+2025-10-07 11:15:13 | INFO | HHS Region 06 Rural Female Diabetes: Rate 25.1, SE 0.4
+2025-10-07 11:15:14 | INFO | HHS Region 07 Urban Male Diabetes: Rate 22.6, SE 0.4
+2025-10-07 11:15:15 | INFO | HHS Region 07 Rural Male Diabetes: Rate 25.9, SE 0.6
+2025-10-07 11:15:16 | INFO | HHS Region 07 Urban Female Diabetes: Rate 16.0, SE 0.3
+2025-10-07 11:15:17 | INFO | HHS Region 07 Rural Female Diabetes: Rate 19.1, SE 0.4
+2025-10-07 11:15:18 | INFO | HHS Region 08 Urban Male Diabetes: Rate 23.2, SE 0.5
+2025-10-07 11:15:19 | INFO | HHS Region 08 Rural Male Diabetes: Rate 24.7, SE 0.7
+2025-10-07 11:15:20 | INFO | HHS Region 08 Urban Female Diabetes: Rate 15.0, SE 0.4
+2025-10-07 11:15:21 | INFO | HHS Region 08 Rural Female Diabetes: Rate 18.0, SE 0.6
+2025-10-07 11:15:22 | INFO | HHS Region 09 Urban Male Diabetes: Rate 25.3, SE 0.2
+2025-10-07 11:15:23 | INFO | HHS Region 09 Rural Male Diabetes: Rate 24.9, SE 0.9
+2025-10-07 11:15:24 | INFO | HHS Region 09 Urban Female Diabetes: Rate 16.7, SE 0.1
+2025-10-07 11:15:25 | INFO | HHS Region 09 Rural Female Diabetes: Rate 17.8, SE 0.7
+2025-10-07 11:15:26 | INFO | HHS Region 10 Urban Male Diabetes: Rate 28.2, SE 0.4
+2025-10-07 11:15:27 | INFO | HHS Region 10 Rural Male Diabetes: Rate 29.8, SE 0.9
+2025-10-07 11:15:28 | INFO | HHS Region 10 Urban Female Diabetes: Rate 17.7, SE 0.3
+2025-10-07 11:15:29 | INFO | HHS Region 10 Rural Female Diabetes: Rate 20.1, SE 0.7
+2025-10-07 11:15:30 | INFO | HHS Region 01 Urban Male Flu and pneumonia: Rate 18.5, SE 0.3
+2025-10-07 11:15:31 | INFO | HHS Region 01 Rural Male Flu and pneumonia: Rate 15.6, SE 0.7
+2025-10-07 11:15:32 | INFO | HHS Region 01 Urban Female Flu and pneumonia: Rate 12.8, SE 0.2
+2025-10-07 11:15:33 | INFO | HHS Region 01 Rural Female Flu and pneumonia: Rate 11.9, SE 0.5
+2025-10-07 11:15:34 | INFO | HHS Region 02 Urban Male Flu and pneumonia: Rate 22.4, SE 0.2
+2025-10-07 11:15:35 | INFO | HHS Region 02 Rural Male Flu and pneumonia: Rate 19.6, SE 0.9
+2025-10-07 11:15:36 | INFO | HHS Region 02 Urban Female Flu and pneumonia: Rate 14.5, SE 0.2
+2025-10-07 11:15:37 | INFO | HHS Region 02 Rural Female Flu and pneumonia: Rate 14.9, SE 0.7
+2025-10-07 11:15:38 | INFO | HHS Region 03 Urban Male Flu and pneumonia: Rate 18.9, SE 0.2
+2025-10-07 11:15:39 | INFO | HHS Region 03 Rural Male Flu and pneumonia: Rate 22.8, SE 0.6
+2025-10-07 11:15:40 | INFO | HHS Region 03 Urban Female Flu and pneumonia: Rate 13.3, SE 0.2
+2025-10-07 11:15:41 | INFO | HHS Region 03 Rural Female Flu and pneumonia: Rate 17.1, SE 0.5
+2025-10-07 11:15:42 | INFO | HHS Region 04 Urban Male Flu and pneumonia: Rate 15.5, SE 0.1
+2025-10-07 11:15:43 | INFO | HHS Region 04 Rural Male Flu and pneumonia: Rate 24.1, SE 0.4
+2025-10-07 11:15:44 | INFO | HHS Region 04 Urban Female Flu and pneumonia: Rate 11.6, SE 0.1
+2025-10-07 11:15:45 | INFO | HHS Region 04 Rural Female Flu and pneumonia: Rate 19.0, SE 0.3
+2025-10-07 11:15:46 | INFO | HHS Region 05 Urban Male Flu and pneumonia: Rate 17.8, SE 0.2
+2025-10-07 11:15:47 | INFO | HHS Region 05 Rural Male Flu and pneumonia: Rate 18.8, SE 0.3
+2025-10-07 11:15:48 | INFO | HHS Region 05 Urban Female Flu and pneumonia: Rate 12.9, SE 0.1
+2025-10-07 11:15:49 | INFO | HHS Region 05 Rural Female Flu and pneumonia: Rate 14.1, SE 0.2
+2025-10-07 11:15:50 | INFO | HHS Region 06 Urban Male Flu and pneumonia: Rate 16.6, SE 0.2
+2025-10-07 11:15:51 | INFO | HHS Region 06 Rural Male Flu and pneumonia: Rate 23.1, SE 0.5
+2025-10-07 11:15:52 | INFO | HHS Region 06 Urban Female Flu and pneumonia: Rate 12.8, SE 0.2
+2025-10-07 11:15:53 | INFO | HHS Region 06 Rural Female Flu and pneumonia: Rate 18.1, SE 0.4
+2025-10-07 11:15:54 | INFO | HHS Region 07 Urban Male Flu and pneumonia: Rate 18.6, SE 0.4
+2025-10-07 11:15:55 | INFO | HHS Region 07 Rural Male Flu and pneumonia: Rate 21.1, SE 0.5
+2025-10-07 11:15:56 | INFO | HHS Region 07 Urban Female Flu and pneumonia: Rate 14.4, SE 0.3
+2025-10-07 11:15:57 | INFO | HHS Region 07 Rural Female Flu and pneumonia: Rate 17.3, SE 0.4
+2025-10-07 11:15:58 | INFO | HHS Region 08 Urban Male Flu and pneumonia: Rate 15.3, SE 0.4
+2025-10-07 11:15:59 | INFO | HHS Region 08 Rural Male Flu and pneumonia: Rate 18.1, SE 0.7
+2025-10-07 11:16:00 | INFO | HHS Region 08 Urban Female Flu and pneumonia: Rate 11.6, SE 0.3
+2025-10-07 11:16:01 | INFO | HHS Region 08 Rural Female Flu and pneumonia: Rate 14.6, SE 0.5
+2025-10-07 11:16:02 | INFO | HHS Region 09 Urban Male Flu and pneumonia: Rate 18.5, SE 0.2
+2025-10-07 11:16:03 | INFO | HHS Region 09 Rural Male Flu and pneumonia: Rate 19.1, SE 0.8
+2025-10-07 11:16:04 | INFO | HHS Region 09 Urban Female Flu and pneumonia: Rate 13.4, SE 0.1
+2025-10-07 11:16:05 | INFO | HHS Region 09 Rural Female Flu and pneumonia: Rate 14.9, SE 0.7
+2025-10-07 11:16:06 | INFO | HHS Region 10 Urban Male Flu and pneumonia: Rate 11.6, SE 0.3
+2025-10-07 11:16:07 | INFO | HHS Region 10 Rural Male Flu and pneumonia: Rate 12.7, SE 0.6
+2025-10-07 11:16:08 | INFO | HHS Region 10 Urban Female Flu and pneumonia: Rate 8.8, SE 0.2
+2025-10-07 11:16:09 | INFO | HHS Region 10 Rural Female Flu and pneumonia: Rate 10.5, SE 0.5
+2025-10-07 11:16:10 | INFO | HHS Region 01 Urban Male Suicide: Rate 15.2, SE 0.3
+2025-10-07 11:16:11 | INFO | HHS Region 01 Rural Male Suicide: Rate 25.6, SE 1.0
+2025-10-07 11:16:12 | INFO | HHS Region 01 Urban Female Suicide: Rate 4.5, SE 0.2
+2025-10-07 11:16:13 | INFO | HHS Region 01 Rural Female Suicide: Rate 5.8, SE 0.5
+2025-10-07 11:16:14 | INFO | HHS Region 02 Urban Male Suicide: Rate 12.6, SE 0.2
+2025-10-07 11:16:15 | INFO | HHS Region 02 Rural Male Suicide: Rate 20.3, SE 1.0
+2025-10-07 11:16:16 | INFO | HHS Region 02 Urban Female Suicide: Rate 3.4, SE 0.1
+2025-10-07 11:16:17 | INFO | HHS Region 02 Rural Female Suicide: Rate 3.9, SE 0.4
+2025-10-07 11:16:18 | INFO | HHS Region 03 Urban Male Suicide: Rate 19.1, SE 0.2
+2025-10-07 11:16:19 | INFO | HHS Region 03 Rural Male Suicide: Rate 26.9, SE 0.7
+2025-10-07 11:16:20 | INFO | HHS Region 03 Urban Female Suicide: Rate 4.8, SE 0.1
+2025-10-07 11:16:21 | INFO | HHS Region 03 Rural Female Suicide: Rate 6.6, SE 0.4
+2025-10-07 11:16:22 | INFO | HHS Region 04 Urban Male Suicide: Rate 21.5, SE 0.2
+2025-10-07 11:16:23 | INFO | HHS Region 04 Rural Male Suicide: Rate 24.6, SE 0.4
+2025-10-07 11:16:24 | INFO | HHS Region 04 Urban Female Suicide: Rate 5.9, SE 0.1
+2025-10-07 11:16:25 | INFO | HHS Region 04 Rural Female Suicide: Rate 6.0, SE 0.2
+2025-10-07 11:16:26 | INFO | HHS Region 05 Urban Male Suicide: Rate 18.8, SE 0.2
+2025-10-07 11:16:27 | INFO | HHS Region 05 Rural Male Suicide: Rate 23.4, SE 0.4
+2025-10-07 11:16:28 | INFO | HHS Region 05 Urban Female Suicide: Rate 4.9, SE 0.1
+2025-10-07 11:16:29 | INFO | HHS Region 05 Rural Female Suicide: Rate 5.1, SE 0.2
+2025-10-07 11:16:30 | INFO | HHS Region 06 Urban Male Suicide: Rate 20.2, SE 0.2
+2025-10-07 11:16:31 | INFO | HHS Region 06 Rural Male Suicide: Rate 27.2, SE 0.5
+2025-10-07 11:16:32 | INFO | HHS Region 06 Urban Female Suicide: Rate 5.3, SE 0.1
+2025-10-07 11:16:33 | INFO | HHS Region 06 Rural Female Suicide: Rate 6.4, SE 0.3
+2025-10-07 11:16:34 | INFO | HHS Region 07 Urban Male Suicide: Rate 22.5, SE 0.4
+2025-10-07 11:16:35 | INFO | HHS Region 07 Rural Male Suicide: Rate 26.0, SE 0.6
+2025-10-07 11:16:36 | INFO | HHS Region 07 Urban Female Suicide: Rate 5.8, SE 0.2
+2025-10-07 11:16:37 | INFO | HHS Region 07 Rural Female Suicide: Rate 5.8, SE 0.3
+2025-10-07 11:16:38 | INFO | HHS Region 08 Urban Male Suicide: Rate 29.1, SE 0.5
+2025-10-07 11:16:39 | INFO | HHS Region 08 Rural Male Suicide: Rate 34.3, SE 0.9
+2025-10-07 11:16:40 | INFO | HHS Region 08 Urban Female Suicide: Rate 8.7, SE 0.3
+2025-10-07 11:16:42 | INFO | HHS Region 08 Rural Female Suicide: Rate 8.4, SE 0.5
+2025-10-07 11:16:43 | INFO | HHS Region 09 Urban Male Suicide: Rate 17.9, SE 0.2
+2025-10-07 11:16:44 | INFO | HHS Region 09 Rural Male Suicide: Rate 35.4, SE 1.2
+2025-10-07 11:16:45 | INFO | HHS Region 09 Urban Female Suicide: Rate 5.2, SE 0.1
+2025-10-07 11:16:46 | INFO | HHS Region 09 Rural Female Suicide: Rate 9.7, SE 0.7
+2025-10-07 11:16:47 | INFO | HHS Region 10 Urban Male Suicide: Rate 24.0, SE 0.4
+2025-10-07 11:16:48 | INFO | HHS Region 10 Rural Male Suicide: Rate 32.2, SE 1.0
+2025-10-07 11:16:49 | INFO | HHS Region 10 Urban Female Suicide: Rate 7.0, SE 0.2
+2025-10-07 11:16:50 | INFO | HHS Region 10 Rural Female Suicide: Rate 8.6, SE 0.5
+2025-10-07 11:16:51 | INFO | HHS Region 01 Urban Male Nephritis: Rate 18.1, SE 0.3
+2025-10-07 11:16:52 | INFO | HHS Region 01 Rural Male Nephritis: Rate 13.0, SE 0.7
+2025-10-07 11:16:53 | INFO | HHS Region 01 Urban Female Nephritis: Rate 10.9, SE 0.2
+2025-10-07 11:16:54 | INFO | HHS Region 01 Rural Female Nephritis: Rate 8.8, SE 0.5
+2025-10-07 11:16:55 | INFO | HHS Region 02 Urban Male Nephritis: Rate 14.5, SE 0.2
+2025-10-07 11:16:56 | INFO | HHS Region 02 Rural Male Nephritis: Rate 14.4, SE 0.8
+2025-10-07 11:16:57 | INFO | HHS Region 02 Urban Female Nephritis: Rate 8.6, SE 0.1
+2025-10-07 11:16:58 | INFO | HHS Region 02 Rural Female Nephritis: Rate 11.6, SE 0.6
+2025-10-07 11:16:59 | INFO | HHS Region 03 Urban Male Nephritis: Rate 18.8, SE 0.2
+2025-10-07 11:17:00 | INFO | HHS Region 03 Rural Male Nephritis: Rate 22.4, SE 0.6
+2025-10-07 11:17:01 | INFO | HHS Region 03 Urban Female Nephritis: Rate 13.0, SE 0.2
+2025-10-07 11:17:02 | INFO | HHS Region 03 Rural Female Nephritis: Rate 17.0, SE 0.5
+2025-10-07 11:17:03 | INFO | HHS Region 04 Urban Male Nephritis: Rate 17.2, SE 0.2
+2025-10-07 11:17:04 | INFO | HHS Region 04 Rural Male Nephritis: Rate 22.6, SE 0.4
+2025-10-07 11:17:05 | INFO | HHS Region 04 Urban Female Nephritis: Rate 11.7, SE 0.1
+2025-10-07 11:17:06 | INFO | HHS Region 04 Rural Female Nephritis: Rate 17.3, SE 0.3
+2025-10-07 11:17:07 | INFO | HHS Region 05 Urban Male Nephritis: Rate 18.5, SE 0.2
+2025-10-07 11:17:08 | INFO | HHS Region 05 Rural Male Nephritis: Rate 17.9, SE 0.3
+2025-10-07 11:17:09 | INFO | HHS Region 05 Urban Female Nephritis: Rate 12.9, SE 0.1
+2025-10-07 11:17:10 | INFO | HHS Region 05 Rural Female Nephritis: Rate 12.8, SE 0.2
+2025-10-07 11:17:11 | INFO | HHS Region 06 Urban Male Nephritis: Rate 19.4, SE 0.2
+2025-10-07 11:17:12 | INFO | HHS Region 06 Rural Male Nephritis: Rate 21.5, SE 0.4
+2025-10-07 11:17:13 | INFO | HHS Region 06 Urban Female Nephritis: Rate 14.3, SE 0.2
+2025-10-07 11:17:14 | INFO | HHS Region 06 Rural Female Nephritis: Rate 16.7, SE 0.3
+2025-10-07 11:17:15 | INFO | HHS Region 07 Urban Male Nephritis: Rate 18.1, SE 0.4
+2025-10-07 11:17:16 | INFO | HHS Region 07 Rural Male Nephritis: Rate 16.5, SE 0.5
+2025-10-07 11:17:17 | INFO | HHS Region 07 Urban Female Nephritis: Rate 12.3, SE 0.3
+2025-10-07 11:17:18 | INFO | HHS Region 07 Rural Female Nephritis: Rate 12.5, SE 0.3
+2025-10-07 11:17:19 | INFO | HHS Region 08 Urban Male Nephritis: Rate 12.9, SE 0.4
+2025-10-07 11:17:20 | INFO | HHS Region 08 Rural Male Nephritis: Rate 10.8, SE 0.5
+2025-10-07 11:17:21 | INFO | HHS Region 08 Urban Female Nephritis: Rate 8.3, SE 0.3
+2025-10-07 11:17:22 | INFO | HHS Region 08 Rural Female Nephritis: Rate 8.5, SE 0.4
+2025-10-07 11:17:23 | INFO | HHS Region 09 Urban Male Nephritis: Rate 9.0, SE 0.1
+2025-10-07 11:17:24 | INFO | HHS Region 09 Rural Male Nephritis: Rate 12.6, SE 0.7
+2025-10-07 11:17:25 | INFO | HHS Region 09 Urban Female Nephritis: Rate 6.1, SE 0.1
+2025-10-07 11:17:26 | INFO | HHS Region 09 Rural Female Nephritis: Rate 8.4, SE 0.5
+2025-10-07 11:17:27 | INFO | HHS Region 10 Urban Male Nephritis: Rate 8.6, SE 0.3
+2025-10-07 11:17:28 | INFO | HHS Region 10 Rural Male Nephritis: Rate 8.6, SE 0.5
+2025-10-07 11:17:29 | INFO | HHS Region 10 Urban Female Nephritis: Rate 5.9, SE 0.2
+2025-10-07 11:17:30 | INFO | HHS Region 10 Rural Female Nephritis: Rate 6.7, SE 0.4
+2025-10-07 11:17:31 | INFO | HHS Region 01 Urban Male Heart disease: Rate 188.2, SE 1.0
+2025-10-07 11:17:32 | INFO | HHS Region 01 Rural Male Heart disease: Rate 199.1, SE 2.6
+2025-10-07 11:17:33 | INFO | HHS Region 01 Urban Female Heart disease: Rate 115.1, SE 0.6
+2025-10-07 11:17:34 | INFO | HHS Region 01 Rural Female Heart disease: Rate 124.5, SE 1.7
+2025-10-07 11:17:35 | INFO | HHS Region 02 Urban Male Heart disease: Rate 226.8, SE 0.8
+2025-10-07 11:17:36 | INFO | HHS Region 02 Rural Male Heart disease: Rate 248.8, SE 3.3
+2025-10-07 11:17:37 | INFO | HHS Region 02 Urban Female Heart disease: Rate 148.6, SE 0.5
+2025-10-07 11:17:38 | INFO | HHS Region 02 Rural Female Heart disease: Rate 165.6, SE 2.3
+2025-10-07 11:17:39 | INFO | HHS Region 03 Urban Male Heart disease: Rate 218.2, SE 0.8
+2025-10-07 11:17:40 | INFO | HHS Region 03 Rural Male Heart disease: Rate 246.0, SE 2.0
+2025-10-07 11:17:41 | INFO | HHS Region 03 Urban Female Heart disease: Rate 138.1, SE 0.5
+2025-10-07 11:17:42 | INFO | HHS Region 03 Rural Female Heart disease: Rate 162.5, SE 1.4
+2025-10-07 11:17:43 | INFO | HHS Region 04 Urban Male Heart disease: Rate 212.8, SE 0.5
+2025-10-07 11:17:44 | INFO | HHS Region 04 Rural Male Heart disease: Rate 276.4, SE 1.3
+2025-10-07 11:17:45 | INFO | HHS Region 04 Urban Female Heart disease: Rate 132.2, SE 0.4
+2025-10-07 11:17:46 | INFO | HHS Region 04 Rural Female Heart disease: Rate 176.8, SE 0.9
+2025-10-07 11:17:47 | INFO | HHS Region 05 Urban Male Heart disease: Rate 222.5, SE 0.6
+2025-10-07 11:17:48 | INFO | HHS Region 05 Rural Male Heart disease: Rate 229.0, SE 1.2
+2025-10-07 11:17:49 | INFO | HHS Region 05 Urban Female Heart disease: Rate 139.6, SE 0.4
+2025-10-07 11:17:50 | INFO | HHS Region 05 Rural Female Heart disease: Rate 140.8, SE 0.8
+2025-10-07 11:17:51 | INFO | HHS Region 06 Urban Male Heart disease: Rate 219.9, SE 0.8
+2025-10-07 11:17:52 | INFO | HHS Region 06 Rural Male Heart disease: Rate 266.4, SE 1.6
+2025-10-07 11:17:53 | INFO | HHS Region 06 Urban Female Heart disease: Rate 140.7, SE 0.5
+2025-10-07 11:17:54 | INFO | HHS Region 06 Rural Female Heart disease: Rate 175.7, SE 1.1
+2025-10-07 11:17:55 | INFO | HHS Region 07 Urban Male Heart disease: Rate 210.0, SE 1.3
+2025-10-07 11:17:56 | INFO | HHS Region 07 Rural Male Heart disease: Rate 237.7, SE 1.7
+2025-10-07 11:17:57 | INFO | HHS Region 07 Urban Female Heart disease: Rate 131.1, SE 0.9
+2025-10-07 11:17:58 | INFO | HHS Region 07 Rural Female Heart disease: Rate 152.3, SE 1.2
+2025-10-07 11:17:59 | INFO | HHS Region 08 Urban Male Heart disease: Rate 166.5, SE 1.4
+2025-10-07 11:18:00 | INFO | HHS Region 08 Rural Male Heart disease: Rate 191.2, SE 2.1
+2025-10-07 11:18:02 | INFO | HHS Region 08 Urban Female Heart disease: Rate 106.7, SE 0.9
+2025-10-07 11:18:03 | INFO | HHS Region 08 Rural Female Heart disease: Rate 119.8, SE 1.4
+2025-10-07 11:18:04 | INFO | HHS Region 09 Urban Male Heart disease: Rate 195.8, SE 0.6
+2025-10-07 11:18:05 | INFO | HHS Region 09 Rural Male Heart disease: Rate 205.8, SE 2.7
+2025-10-07 11:18:06 | INFO | HHS Region 09 Urban Female Heart disease: Rate 121.0, SE 0.4
+2025-10-07 11:18:07 | INFO | HHS Region 09 Rural Female Heart disease: Rate 125.2, SE 1.9
+2025-10-07 11:18:08 | INFO | HHS Region 10 Urban Male Heart disease: Rate 176.0, SE 1.1
+2025-10-07 11:18:09 | INFO | HHS Region 10 Rural Male Heart disease: Rate 194.9, SE 2.3
+2025-10-07 11:18:10 | INFO | HHS Region 10 Urban Female Heart disease: Rate 106.0, SE 0.7
+2025-10-07 11:18:11 | INFO | HHS Region 10 Rural Female Heart disease: Rate 114.3, SE 1.6
+2025-10-07 11:18:12 | INFO | HHS Region 01 Urban Male Cancer: Rate 194.5, SE 1.0
+2025-10-07 11:18:13 | INFO | HHS Region 01 Rural Male Cancer: Rate 202.7, SE 2.5
+2025-10-07 11:18:14 | INFO | HHS Region 01 Urban Female Cancer: Rate 140.3, SE 0.8
+2025-10-07 11:18:15 | INFO | HHS Region 01 Rural Female Cancer: Rate 144.7, SE 2.0
+2025-10-07 11:18:16 | INFO | HHS Region 02 Urban Male Cancer: Rate 187.5, SE 0.7
+2025-10-07 11:18:17 | INFO | HHS Region 02 Rural Male Cancer: Rate 204.9, SE 2.9
+2025-10-07 11:18:18 | INFO | HHS Region 02 Urban Female Cancer: Rate 139.2, SE 0.5
+2025-10-07 11:18:19 | INFO | HHS Region 02 Rural Female Cancer: Rate 151.7, SE 2.3
+2025-10-07 11:18:20 | INFO | HHS Region 03 Urban Male Cancer: Rate 204.3, SE 0.7
+2025-10-07 11:18:21 | INFO | HHS Region 03 Rural Male Cancer: Rate 224.7, SE 1.9
+2025-10-07 11:18:22 | INFO | HHS Region 03 Urban Female Cancer: Rate 146.7, SE 0.5
+2025-10-07 11:18:23 | INFO | HHS Region 03 Rural Female Cancer: Rate 156.7, SE 1.4
+2025-10-07 11:18:24 | INFO | HHS Region 04 Urban Male Cancer: Rate 204.7, SE 0.5
+2025-10-07 11:18:25 | INFO | HHS Region 04 Rural Male Cancer: Rate 245.2, SE 1.2
+2025-10-07 11:18:26 | INFO | HHS Region 04 Urban Female Cancer: Rate 139.9, SE 0.4
+2025-10-07 11:18:27 | INFO | HHS Region 04 Rural Female Cancer: Rate 156.2, SE 0.8
+2025-10-07 11:18:28 | INFO | HHS Region 05 Urban Male Cancer: Rate 207.3, SE 0.6
+2025-10-07 11:18:29 | INFO | HHS Region 05 Rural Male Cancer: Rate 217.2, SE 1.1
+2025-10-07 11:18:30 | INFO | HHS Region 05 Urban Female Cancer: Rate 149.9, SE 0.4
+2025-10-07 11:18:31 | INFO | HHS Region 05 Rural Female Cancer: Rate 152.0, SE 0.9
+2025-10-07 11:18:32 | INFO | HHS Region 06 Urban Male Cancer: Rate 201.6, SE 0.7
+2025-10-07 11:18:33 | INFO | HHS Region 06 Rural Male Cancer: Rate 223.8, SE 1.4
+2025-10-07 11:18:34 | INFO | HHS Region 06 Urban Female Cancer: Rate 137.8, SE 0.5
+2025-10-07 11:18:35 | INFO | HHS Region 06 Rural Female Cancer: Rate 151.8, SE 1.1
+2025-10-07 11:18:36 | INFO | HHS Region 07 Urban Male Cancer: Rate 204.3, SE 1.3
+2025-10-07 11:18:37 | INFO | HHS Region 07 Rural Male Cancer: Rate 214.1, SE 1.6
+2025-10-07 11:18:38 | INFO | HHS Region 07 Urban Female Cancer: Rate 148.0, SE 1.0
+2025-10-07 11:18:39 | INFO | HHS Region 07 Rural Female Cancer: Rate 149.7, SE 1.3
+2025-10-07 11:18:40 | INFO | HHS Region 08 Urban Male Cancer: Rate 167.0, SE 1.3
+2025-10-07 11:18:41 | INFO | HHS Region 08 Rural Male Cancer: Rate 173.7, SE 1.9
+2025-10-07 11:18:42 | INFO | HHS Region 08 Urban Female Cancer: Rate 122.5, SE 1.0
+2025-10-07 11:18:43 | INFO | HHS Region 08 Rural Female Cancer: Rate 132.6, SE 1.6
+2025-10-07 11:18:44 | INFO | HHS Region 09 Urban Male Cancer: Rate 176.1, SE 0.5
+2025-10-07 11:18:45 | INFO | HHS Region 09 Rural Male Cancer: Rate 186.7, SE 2.5
+2025-10-07 11:18:46 | INFO | HHS Region 09 Urban Female Cancer: Rate 130.1, SE 0.4
+2025-10-07 11:18:47 | INFO | HHS Region 09 Rural Female Cancer: Rate 135.7, SE 2.0
+2025-10-07 11:18:48 | INFO | HHS Region 10 Urban Male Cancer: Rate 190.6, SE 1.1
+2025-10-07 11:18:49 | INFO | HHS Region 10 Rural Male Cancer: Rate 197.1, SE 2.3
+2025-10-07 11:18:50 | INFO | HHS Region 10 Urban Female Cancer: Rate 140.9, SE 0.9
+2025-10-07 11:18:51 | INFO | HHS Region 10 Rural Female Cancer: Rate 143.8, SE 1.9
+2025-10-07 11:18:52 | INFO | HHS Region 01 Urban Male Lower respiratory: Rate 36.7, SE 0.5
+2025-10-07 11:18:53 | INFO | HHS Region 01 Rural Male Lower respiratory: Rate 51.7, SE 1.3
+2025-10-07 11:18:54 | INFO | HHS Region 01 Urban Female Lower respiratory: Rate 32.2, SE 0.4
+2025-10-07 11:18:55 | INFO | HHS Region 01 Rural Female Lower respiratory: Rate 41.3, SE 1.0
+2025-10-07 11:18:56 | INFO | HHS Region 02 Urban Male Lower respiratory: Rate 33.0, SE 0.3
+2025-10-07 11:18:57 | INFO | HHS Region 02 Rural Male Lower respiratory: Rate 59.3, SE 1.6
+2025-10-07 11:18:58 | INFO | HHS Region 02 Urban Female Lower respiratory: Rate 28.0, SE 0.2
+2025-10-07 11:18:59 | INFO | HHS Region 02 Rural Female Lower respiratory: Rate 46.3, SE 1.2
+2025-10-07 11:19:00 | INFO | HHS Region 03 Urban Male Lower respiratory: Rate 41.7, SE 0.3
+2025-10-07 11:19:01 | INFO | HHS Region 03 Rural Male Lower respiratory: Rate 62.1, SE 1.0
+2025-10-07 11:19:02 | INFO | HHS Region 03 Urban Female Lower respiratory: Rate 34.4, SE 0.3
+2025-10-07 11:19:03 | INFO | HHS Region 03 Rural Female Lower respiratory: Rate 46.4, SE 0.8
+2025-10-07 11:19:04 | INFO | HHS Region 04 Urban Male Lower respiratory: Rate 48.5, SE 0.3
+2025-10-07 11:19:05 | INFO | HHS Region 04 Rural Male Lower respiratory: Rate 70.7, SE 0.6
+2025-10-07 11:19:06 | INFO | HHS Region 04 Urban Female Lower respiratory: Rate 39.9, SE 0.2
+2025-10-07 11:19:07 | INFO | HHS Region 04 Rural Female Lower respiratory: Rate 51.1, SE 0.5
+2025-10-07 11:19:08 | INFO | HHS Region 05 Urban Male Lower respiratory: Rate 48.7, SE 0.3
+2025-10-07 11:19:09 | INFO | HHS Region 05 Rural Male Lower respiratory: Rate 59.9, SE 0.6
+2025-10-07 11:19:10 | INFO | HHS Region 05 Urban Female Lower respiratory: Rate 40.1, SE 0.2
+2025-10-07 11:19:11 | INFO | HHS Region 05 Rural Female Lower respiratory: Rate 44.7, SE 0.4
+2025-10-07 11:19:12 | INFO | HHS Region 06 Urban Male Lower respiratory: Rate 49.5, SE 0.4
+2025-10-07 11:19:13 | INFO | HHS Region 06 Rural Male Lower respiratory: Rate 65.8, SE 0.8
+2025-10-07 11:19:14 | INFO | HHS Region 06 Urban Female Lower respiratory: Rate 39.4, SE 0.3
+2025-10-07 11:19:15 | INFO | HHS Region 06 Rural Female Lower respiratory: Rate 50.5, SE 0.6
+2025-10-07 11:19:16 | INFO | HHS Region 07 Urban Male Lower respiratory: Rate 54.8, SE 0.7
+2025-10-07 11:19:17 | INFO | HHS Region 07 Rural Male Lower respiratory: Rate 65.9, SE 0.9
+2025-10-07 11:19:18 | INFO | HHS Region 07 Urban Female Lower respiratory: Rate 44.0, SE 0.5
+2025-10-07 11:19:19 | INFO | HHS Region 07 Rural Female Lower respiratory: Rate 45.6, SE 0.7
+2025-10-07 11:19:20 | INFO | HHS Region 08 Urban Male Lower respiratory: Rate 48.9, SE 0.7
+2025-10-07 11:19:21 | INFO | HHS Region 08 Rural Male Lower respiratory: Rate 56.1, SE 1.1
+2025-10-07 11:19:22 | INFO | HHS Region 08 Urban Female Lower respiratory: Rate 37.1, SE 0.6
+2025-10-07 11:19:23 | INFO | HHS Region 08 Rural Female Lower respiratory: Rate 40.2, SE 0.9
+2025-10-07 11:19:24 | INFO | HHS Region 09 Urban Male Lower respiratory: Rate 40.6, SE 0.3
+2025-10-07 11:19:25 | INFO | HHS Region 09 Rural Male Lower respiratory: Rate 50.7, SE 1.3
+2025-10-07 11:19:26 | INFO | HHS Region 09 Urban Female Lower respiratory: Rate 33.7, SE 0.2
+2025-10-07 11:19:27 | INFO | HHS Region 09 Rural Female Lower respiratory: Rate 43.6, SE 1.1
+2025-10-07 11:19:28 | INFO | HHS Region 10 Urban Male Lower respiratory: Rate 46.3, SE 0.6
+2025-10-07 11:19:29 | INFO | HHS Region 10 Rural Male Lower respiratory: Rate 52.3, SE 1.2

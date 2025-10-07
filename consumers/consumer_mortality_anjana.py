@@ -8,6 +8,7 @@ import json
 import sqlite3
 import pathlib
 import time
+import os
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from collections import deque, defaultdict
@@ -16,6 +17,7 @@ from typing import Optional, Dict, Any, List
 # Configuration
 DATA_FILE = pathlib.Path('data/project_live.json')
 DB_FILE = pathlib.Path('data/mortality_analytics.sqlite')
+HIGH_RATE_THRESHOLD = float(os.getenv("HIGH_RATE_THRESHOLD", 100))  # dynamic threshold
 
 # Real-time data storage
 mortality_rates = defaultdict(lambda: deque(maxlen=20))
@@ -70,14 +72,16 @@ def process_and_store_message(message: Dict[str, Any], db_file: pathlib.Path) ->
     if not data:
         return
 
-    region = data["region"]
-    status = data["status"]
-    sex = data["sex"]
-    cause = data["cause"]
-    rate = data["rate"]
-    se = data["se"]
+    region, status, sex, cause, rate, se = (
+        data["region"],
+        data["status"],
+        data["sex"],
+        data["cause"],
+        data["rate"],
+        data["se"],
+    )
 
-    is_high_mortality = rate >= 100
+    is_high_mortality = rate >= HIGH_RATE_THRESHOLD
 
     mortality_rates[(cause, region)].append(rate)
     mortality_rates[(cause, sex)].append(rate)
@@ -119,33 +123,24 @@ def read_latest_messages(data_file: pathlib.Path) -> List[Dict[str, Any]]:
                 if msg_id not in processed_messages:
                     new_messages.append(message)
                     processed_messages.add(msg_id)
-    except (json.JSONDecodeError, Exception) as e:
+    except Exception as e:
         print(f"Error reading messages: {e}")
 
     return new_messages
 
 
 def setup_dynamic_plot():
-    fig, (ax0, ax1) = plt.subplots(
-        2, 1, figsize=(12, 20),
-        gridspec_kw={'hspace': 0.4}
-    )
+    fig, (ax0, ax1) = plt.subplots(2, 1, figsize=(12, 18), constrained_layout=True)
     fig.suptitle('Real-time Mortality Analytics Dashboard', fontsize=18, fontweight='bold')
     return fig, (ax0, ax1)
 
 
-def save_snapshot(event, fig):
-    if event.key == 's':
-        fig.savefig(f"mortality_snapshot_{int(time.time())}.png", dpi=300, bbox_inches='tight')
-        print("💾 Snapshot saved!")
-
-
 def animate_dashboard(frame, fig, axes):
     ax0, ax1 = axes
-    ax0.clear()
-    ax1.clear()
+    ax0.cla()
+    ax1.cla()
 
-    # Chart 0: Mortality by Cause and Gender
+    # Chart 1: Mortality by Cause and Gender
     ax0.set_title('Average Mortality Rate by Cause and Gender', fontweight='bold')
     ax0.set_ylabel('Average Mortality Rate')
     ax0.set_xlabel('Cause')
@@ -160,24 +155,27 @@ def animate_dashboard(frame, fig, axes):
         female_rates = []
 
         for cause in causes:
-            male_rates.append(sum(cause_gender_stats[cause].get("Male", [])) /
-                              max(len(cause_gender_stats[cause].get("Male", [])), 1))
-            female_rates.append(sum(cause_gender_stats[cause].get("Female", [])) /
-                                max(len(cause_gender_stats[cause].get("Female", [])), 1))
+            male_avg = sum(cause_gender_stats[cause].get("Male", [])) / max(len(cause_gender_stats[cause].get("Male", [])), 1)
+            female_avg = sum(cause_gender_stats[cause].get("Female", [])) / max(len(cause_gender_stats[cause].get("Female", [])), 1)
+            male_rates.append(male_avg)
+            female_rates.append(female_avg)
 
-        ax0.bar([i - bar_width/2 for i in index], male_rates, width=bar_width, color='#4682B4', label='Male')
-        ax0.bar([i + bar_width/2 for i in index], female_rates, width=bar_width, color='#FF69B4', label='Female')
+        # Bars
+        bars_male = ax0.bar([i - bar_width/2 for i in index], male_rates, width=bar_width, color='#4682B4', label='Male')
+        bars_female = ax0.bar([i + bar_width/2 for i in index], female_rates, width=bar_width, color='#FF69B4', label='Female')
 
+        # Text labels for individual bars
         for i, (m, f) in enumerate(zip(male_rates, female_rates)):
             ax0.text(i - bar_width/2, m + 1, f"{m:.1f}", ha='center', fontsize=8, fontweight='bold')
             ax0.text(i + bar_width/2, f + 1, f"{f:.1f}", ha='center', fontsize=8, fontweight='bold')
 
+    
         ax0.set_xticks(index)
         ax0.set_xticklabels(causes, rotation=45, ha='right')
         ax0.legend()
         ax0.grid(True, alpha=0.3, axis='y')
 
-    # Chart 1: Heart Disease Trends
+    # Chart 2: Heart Disease Trends
     ax1.set_title('Heart Disease Mortality Rate Trends by HHS Region', fontweight='bold')
     ax1.set_ylabel('Mortality Rate')
     ax1.set_xlabel('Recent Readings')
@@ -191,20 +189,16 @@ def animate_dashboard(frame, fig, axes):
     ax1.legend(loc='upper left', bbox_to_anchor=(1.01, 1), fontsize=9, title="HHS Region")
     ax1.grid(True, alpha=0.3)
 
-    plt.tight_layout(pad=2.5)
-
-
 def main():
     print("=== Mortality Analytics Consumer ===")
     print(f"Reading from: {DATA_FILE}")
     print(f"Storing analytics in: {DB_FILE}")
-    print("Starting dynamic visualization... (Press 's' to save snapshot)")
+    print(f"Using HIGH_RATE_THRESHOLD = {HIGH_RATE_THRESHOLD}")
+    print("Starting dynamic visualization... (Press Ctrl+C to stop)")
 
     init_db(DB_FILE)
     plt.ion()
     fig, axes = setup_dynamic_plot()
-
-    fig.canvas.mpl_connect('key_press_event', lambda event: save_snapshot(event, fig))
 
     ani = animation.FuncAnimation(fig, animate_dashboard, fargs=(fig, axes),
                                   interval=2000, cache_frame_data=False)
@@ -214,21 +208,15 @@ def main():
             messages = read_latest_messages(DATA_FILE)
             for message in messages:
                 process_and_store_message(message, DB_FILE)
-
-            if not messages:
-                print("⏳ Waiting for new mortality data...")
             plt.pause(0.1)
             time.sleep(2)
 
     except KeyboardInterrupt:
         print("\n🛑 Consumer stopped by user")
-    except Exception as e:
-        print(f"❌ Error in consumer: {e}")
     finally:
         plt.ioff()
-        print("Consumer shutting down...")
         print(f"📈 Total high mortality events detected: {high_mortality_count}")
 
 
 if __name__ == "__main__":
-    main()
+    main() 
